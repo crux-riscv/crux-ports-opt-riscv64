@@ -1,0 +1,24 @@
+diff -Naur rustc-1.87.0-src.orig/src/bootstrap/src/core/build_steps/dist.rs rustc-1.87.0-src/src/bootstrap/src/core/build_steps/dist.rs
+--- rustc-1.87.0-src.orig/src/bootstrap/src/core/build_steps/dist.rs	2025-05-15 20:36:30.310280383 +0200
++++ rustc-1.87.0-src/src/bootstrap/src/core/build_steps/dist.rs	2025-05-15 20:39:42.549446415 +0200
+@@ -432,7 +432,7 @@
+                 },
+                 builder.kind,
+             ) {
+-                let dst = image.join("libexec");
++                let dst = image.join("lib");
+                 builder.install(&ra_proc_macro_srv.tool_path, &dst, FileType::Executable);
+             }
+ 
+diff -Naur rustc-1.87.0-src.orig/src/bootstrap/src/core/build_steps/tool.rs rustc-1.87.0-src/src/bootstrap/src/core/build_steps/tool.rs
+--- rustc-1.87.0-src.orig/src/bootstrap/src/core/build_steps/tool.rs	2025-05-15 20:36:30.309921123 +0200
++++ rustc-1.87.0-src/src/bootstrap/src/core/build_steps/tool.rs	2025-05-15 20:40:02.939431874 +0200
+@@ -954,7 +954,7 @@
+ 
+         // Copy `rust-analyzer-proc-macro-srv` to `<sysroot>/libexec/`
+         // so that r-a can use it.
+-        let libexec_path = builder.sysroot(self.compiler).join("libexec");
++        let libexec_path = builder.sysroot(self.compiler).join("lib");
+         t!(fs::create_dir_all(&libexec_path));
+         builder.copy_link(
+             &tool_result.tool_path,

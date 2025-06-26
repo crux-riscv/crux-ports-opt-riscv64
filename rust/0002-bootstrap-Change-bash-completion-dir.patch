@@ -1,0 +1,12 @@
+diff -Naur rustc-1.87.0-src.orig/src/bootstrap/src/core/build_steps/dist.rs rustc-1.87.0-src/src/bootstrap/src/core/build_steps/dist.rs
+--- rustc-1.87.0-src.orig/src/bootstrap/src/core/build_steps/dist.rs	2025-05-15 20:36:30.310280383 +0200
++++ rustc-1.87.0-src/src/bootstrap/src/core/build_steps/dist.rs	2025-05-15 20:44:35.687484211 +0200
+@@ -1189,7 +1189,7 @@
+         tarball.add_file(etc.join("_cargo"), "share/zsh/site-functions", FileType::Regular);
+         tarball.add_renamed_file(
+             etc.join("cargo.bashcomp.sh"),
+-            "etc/bash_completion.d",
++            "share/bash-completion/completions",
+             "cargo",
+             FileType::Regular,
+         );
