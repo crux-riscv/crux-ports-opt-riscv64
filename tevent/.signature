@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYWItzeWB8g7rkOjiukt1GeoCPmDjKg0Ys2s6jiYxwtC1alpr1FXeMyF4mc0wcy2XvnQsx8gZ+J84aBcq/wyLiQ8=
+SHA256 (Pkgfile) = 4cf27cb6caeff703e38f34211135b1066d1bab43cfea23b0eba32d3118b8c395
+SHA256 (.footprint) = 92f6a4f0cf075425d4d3366b133ad7a36b1437aa3e27ba90229af4addb5d843c
+SHA256 (tevent-0.17.0.tar.gz) = 7702fb373b69da2960b86134b6a9ec6fa0b949a01756fec00a4a6a43575c8361
