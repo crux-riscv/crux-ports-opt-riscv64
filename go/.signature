@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYUhAVdkQHdTDlV2gsWn7emny+Kf6NN9TJebwEDUU+nC6Tb8t+ym92UeiDgWfOQ29FZfNig/hc15JnpyT1Mb+aA8=
+SHA256 (Pkgfile) = 80b0282e276f0268deb70fd04e120403d0ff8591ecc4fc7a39ad9ba71b0d6d3b
+SHA256 (.footprint) = 4d6fe0d285227bfc1c32dbc1eda84f8fa227e62a49d7c378b66570eeb1a0c5f4
+SHA256 (go1.24.4.src.tar.gz) = 5a86a83a31f9fa81490b8c5420ac384fd3d95a3e71fba665c7b3f95d1dfef2b4
+SHA256 (go1.24.4.linux-riscv64.tar.gz) = 1d7034f98662d8f2c8abd7c700ada4093acb4f9c00e0e51a30344821d0785c77

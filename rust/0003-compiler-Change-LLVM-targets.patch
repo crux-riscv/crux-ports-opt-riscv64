@@ -1,0 +1,38 @@
+diff -Naur rustc-1.87.0-src.orig/compiler/rustc_session/src/config.rs rustc-1.87.0-src/compiler/rustc_session/src/config.rs
+--- rustc-1.87.0-src.orig/compiler/rustc_session/src/config.rs	2025-05-15 20:36:30.225239112 +0200
++++ rustc-1.87.0-src/compiler/rustc_session/src/config.rs	2025-05-15 20:48:15.135747563 +0200
+@@ -2104,6 +2104,10 @@
+                 early_dcx.early_fatal(format!("target file {path:?} does not exist"))
+             })
+         }
++        Some(s) if &s == "x86_64-pc-linux-gnu" => {
++            TargetTuple::from_tuple("x86_64-unknown-linux-gnu")
++        }
++        Some(s) if &s == "i686-pc-linux-gnu" => TargetTuple::from_tuple("i686-unknown-linux-gnu"),
+         Some(target) => TargetTuple::TargetTuple(target),
+         _ => TargetTuple::from_tuple(host_tuple()),
+     }
+diff -Naur rustc-1.87.0-src.orig/compiler/rustc_target/src/spec/targets/i686_unknown_linux_gnu.rs rustc-1.87.0-src/compiler/rustc_target/src/spec/targets/i686_unknown_linux_gnu.rs
+--- rustc-1.87.0-src.orig/compiler/rustc_target/src/spec/targets/i686_unknown_linux_gnu.rs	2025-05-15 20:36:30.234757239 +0200
++++ rustc-1.87.0-src/compiler/rustc_target/src/spec/targets/i686_unknown_linux_gnu.rs	2025-05-15 20:48:52.682388445 +0200
+@@ -23,7 +23,7 @@
+     base.stack_probes = StackProbeType::Inline;
+ 
+     Target {
+-        llvm_target: "i686-unknown-linux-gnu".into(),
++        llvm_target: "i686-pc-linux-gnu".into(),
+         metadata: TargetMetadata {
+             description: Some("32-bit Linux (kernel 3.2, glibc 2.17+)".into()),
+             tier: Some(1),
+diff -Naur rustc-1.87.0-src.orig/compiler/rustc_target/src/spec/targets/x86_64_unknown_linux_gnu.rs rustc-1.87.0-src/compiler/rustc_target/src/spec/targets/x86_64_unknown_linux_gnu.rs
+--- rustc-1.87.0-src.orig/compiler/rustc_target/src/spec/targets/x86_64_unknown_linux_gnu.rs	2025-05-15 20:36:30.234642179 +0200
++++ rustc-1.87.0-src/compiler/rustc_target/src/spec/targets/x86_64_unknown_linux_gnu.rs	2025-05-15 20:50:08.440385418 +0200
+@@ -28,7 +28,7 @@
+     }
+ 
+     Target {
+-        llvm_target: "x86_64-unknown-linux-gnu".into(),
++        llvm_target: "x86_64-pc-linux-gnu".into(),
+         metadata: TargetMetadata {
+             description: Some("64-bit Linux (kernel 3.2+, glibc 2.17+)".into()),
+             tier: Some(1),

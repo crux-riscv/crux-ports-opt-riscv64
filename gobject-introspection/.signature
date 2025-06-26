@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYVjUDK+/1/kjY2EAt1seAa+fqCtgpy708S+KKmMQ/Y2J041VX/VWtL+aEvlQeReUdmHBXGTYQWtMuhV7OYkz0gM=
+SHA256 (Pkgfile) = e3745137c42e0c4a2154e0bb82e60f7d509029f12f36c28bf15aef22fdca3510
+SHA256 (.footprint) = 0758ad8e9da5f6f541296d986595ceab72241738b859addd4be3626ea58dc1a7
+SHA256 (gobject-introspection-1.84.0.tar.xz) = 945b57da7ec262e5c266b89e091d14be800cc424277d82a02872b7d794a84779

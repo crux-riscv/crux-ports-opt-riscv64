@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYat6C5uRjwKdRfnyUubjoDztJUbGI58r1ItgmvcDuLUCnLoQf9/A2L5SxBHL1gfgxNmQy94Oas3moZj2dT0z9Ak=
+SHA256 (Pkgfile) = f1eb3c1036fe1713e35b6031919b9f3c87a0e63d4a8ea23cbb7da6105b001980
+SHA256 (.footprint) = f22de713c4c3602b19ccdd11109d6631c9fd9967660e7192592906046c8d724c
+SHA256 (libxklavier-5.4.tar.bz2) = 17a34194df5cbcd3b7bfd0f561d95d1f723aa1c87fca56bc2c209514460a9320

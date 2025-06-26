@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYUyya9PAcjQXEMTVHJFlru3yV1DaXl61QqstYOE76d0wkpGa7edUhbeIWKOcHjaO5rDHXrPRexPYvTn46IHL2g4=
+SHA256 (Pkgfile) = 338bc9ca066f8c3b55ffa07c368d7cf7aa11140f2ba50fd4b7880a8213a792be
+SHA256 (.footprint) = 188cfd749c019d69c85be448962910e196a37c1badf683323a4a153ebdbb9bfd
+SHA256 (ftjam-2.5.3rc2.tar.bz2) = a9f8a274049893a4d1f1ad82f7b04f3ebc2554635dd606185e20ba97cb4d64ec
+SHA256 (ftjam-2.5.3-clang16.patch) = c477e1b6b48d9830a873cde7cc41470320ca112c74bff6f3faf5144d4950d48e

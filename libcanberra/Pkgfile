@@ -1,0 +1,37 @@
+# Description: A small and lightweight implementation of the XDG Sound Theme Specification
+# URL: http://0pointer.de/lennart/projects/libcanberra
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: libvorbis
+# Optional: alsa-lib gstreamer gtk gtk3 pulseaudio tdb lynx
+
+name=libcanberra
+version=0.30
+release=4
+source=(http://0pointer.de/lennart/projects/libcanberra/libcanberra-$version.tar.xz
+  libcanberra-broadway-fix.patch libcanberra-multi-backend.patch)
+
+build() {
+  cd $name-$version
+
+  patch -p1 -i $SRC/libcanberra-broadway-fix.patch
+  patch -p1 -i $SRC/libcanberra-multi-backend.patch
+
+  prt-get isinst alsa-lib && PKGMK_LIBCANBERRA+=' --enable-alsa'
+  prt-get isinst gstreamer && PKGMK_LIBCANBERRA+=' --enable-gstreamer'
+  prt-get isinst gtk && PKGMK_LIBCANBERRA+=' --enable-gtk'
+  prt-get isinst gtk3 && PKGMK_LIBCANBERRA+=' --enable-gtk3'
+  prt-get isinst pulseaudio && PKGMK_LIBCANBERRA+=' --enable-pulse'
+
+  ./configure --prefix=/usr $PKGMK_LIBCANBERRA \
+    --build=riscv64-unknown-linux-gnu \
+    --enable-udev \
+    --disable-oss \
+    --disable-static \
+    --disable-gtk-{doc,doc-html,doc-pdf} \
+    --with-builtin=dso \
+    --with-pic
+  make
+  make -j1 DESTDIR=$PKG install
+
+  rm -r $PKG/usr/share/{doc,gtk-doc}
+}

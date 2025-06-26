@@ -1,0 +1,21 @@
+# Description: GNOME keyring client library
+# URL: https://live.gnome.org/GnomeKeyring/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: dbus glib-introspection intltool libgcrypt
+
+name=libgnome-keyring
+version=3.12.0
+release=2
+source=(https://download.gnome.org/sources/libgnome-keyring/${version::4}/libgnome-keyring-$version.tar.xz)
+
+build() {
+  cd $name-$version
+  ./configure --prefix=/usr \
+    --build=riscv64-unknown-linux-gnu \
+    --disable-nls \
+    --disable-vala
+  make
+  make DESTDIR=$PKG install
+
+  rm -r $PKG/usr/share/{gtk-doc,locale}
+}

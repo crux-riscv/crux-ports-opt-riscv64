@@ -1,0 +1,21 @@
+# Description: C extensions for Python
+# URL: https://cython.org/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: python3-wheel
+
+name=python3-cython
+version=3.1.2
+release=1
+source=(https://pypi.org/packages/source/c/cython/cython-$version.tar.gz)
+
+build() {
+  cd cython-$version
+
+  /usr/bin/python3 -m build --wheel --skip-dependency-check --no-isolation
+  /usr/bin/python3 -m installer --destdir=$PKG dist/*.whl
+
+  for f in cygdb cython cythonize; do
+    mv $PKG/usr/bin/$f $PKG/usr/bin/${f}3
+    ln -s ${f}3 $PKG/usr/bin/$f
+  done
+}

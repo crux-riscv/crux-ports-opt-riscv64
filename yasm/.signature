@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYd38uLOd9aKB0li7zUZyEfISX/J+4gjod6NcWf7L9YMtASUkDbDb4fevS91jxI8B+e8tI5ygVYNM86M6Fy4flgs=
+SHA256 (Pkgfile) = c70e8821405c2e441168462f53878b014e3a28dcb83ca35c613d334d3bd1af3b
+SHA256 (.footprint) = be21c0062c9c34467a070dd494c184494d6aca243567a7e78e3a927ca4c0082f
+SHA256 (yasm-1.3.0.tar.gz) = 3dce6601b495f5b3d45b59f7d2492a340ee7e84b5beca17e48f862502bd5603f

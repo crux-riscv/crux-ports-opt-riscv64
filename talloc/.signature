@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYaVHFUa8lxInrNN/yl2sFCC8mqtRcyFcVwkrUEw+gicqy3qzvjg7WOgnJF4WmiioW9fbgcopVl9JAzmMDeIIygw=
+SHA256 (Pkgfile) = 99aa771ae0af3f8368f145ac42c2aa4fac7e9b5478387c0599061efe67db9168
+SHA256 (.footprint) = 42f4e0ff47a3952da28fc3282430c5d64129b921338a613ec960018d71f16352
+SHA256 (talloc-2.4.3.tar.gz) = dc46c40b9f46bb34dd97fe41f548b0e8b247b77a918576733c528e83abd854dd
+SHA256 (talloc-man-pages.tar.xz) = ccaa229413cb28235c9e0bf819119c171730e4782fa176ff87605bdb88a7925a

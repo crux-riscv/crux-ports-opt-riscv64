@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYT2JyxZdRAqrF2ngMEr10n1kbZXjxsx49eiXWPpjvDHKcuOKafvI3K2Z7VEzJi0ghGKKr0rORDJzRZIMj7xw+QM=
+SHA256 (Pkgfile) = bce186b4bb93b72665f3b10c335c78c9a00674931ff707bcde31353b3012c108
+SHA256 (.footprint) = 423beb17fe86c3a4b12dff4ba33dbd959a1dd496d695a47ccb7e8fd39228e019
+SHA256 (libgnome-keyring-3.12.0.tar.xz) = c4c178fbb05f72acc484d22ddb0568f7532c409b0a13e06513ff54b91e947783

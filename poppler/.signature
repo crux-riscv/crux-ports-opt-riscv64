@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYU+HpdVHdjWZNahUTE9Y6CzRsub3EcN7Hk+XAzK9e+z5qW6Dy4EV8P3UeqR+o6nKwXwGLH4tIFsFL7/OA363DgY=
+SHA256 (Pkgfile) = 97ad551b2dc540df22a960a109b8ba007a6e54bc7df2639832fe4ca9670d42f9
+SHA256 (.footprint) = f135bf07283073cb9c9011bd8fd2cde00050e15282a690150da1d5d05c6821c7
+SHA256 (poppler-25.06.0.tar.xz) = 8199532d38984fab46dbd0020ec9c40f20e928e33e9b4cc6043572603a821d83
