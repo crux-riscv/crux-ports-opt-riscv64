@@ -1,0 +1,20 @@
+# Description: Build tool that can be used as a replacement for Make.
+# URL: https://freetype.sourceforge.net/jam/index.html
+# Maintainer: Tim Biermann, tbier at posteo dot de
+
+name=ftjam
+version=2.5.3rc2
+release=1
+source=(https://www.mirrorservice.org/sites/download.salixos.org/i486/14.0/source/d/ftjam/$name-$version.tar.bz2
+  ftjam-2.5.3-clang16.patch)
+
+build() {
+  cd ftjam-$version
+
+  patch -Np1 -i $SRC/ftjam-2.5.3-clang16.patch
+  CFLAGS+=' -fno-strict-aliasing' \
+  ./configure --prefix=/usr \
+              --build=riscv64-unknown-linux-gnu
+  make
+  make DESTDIR=$PKG install
+}
