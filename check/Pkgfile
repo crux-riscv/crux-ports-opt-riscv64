@@ -1,0 +1,17 @@
+# Description: A unit testing framework for C
+# URL: https://libcheck.github.io/check/
+# Maintainer: Matt Housh, jaeger at crux dot ninja
+
+name=check
+version=0.15.2
+release=1
+source=(https://github.com/libcheck/check/releases/download/$version/$name-$version.tar.gz)
+
+build () {
+  cd $name-$version
+  ./configure --prefix=/usr \
+              --build=riscv64-unknown-linux-gnu 
+  make
+  make DESTDIR=$PKG install
+  rm -r $PKG/usr/share/{doc,info}
+}
