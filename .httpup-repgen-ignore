@@ -1,4 +1,5 @@
 README.md
+LICENSE
 COPYING
 \.git
-*.httpup
+*.httpup*
