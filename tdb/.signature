@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYcypvRP3rXb+nbK8TKX5Ot1MYB8NAC9ibAlPUPMgVL7dizIV/ybygZTpYH2lc7D12lopP8J63XAh91ZN6uKPAAc=
+SHA256 (Pkgfile) = 06e563f762ed37e00825a863e200db5928bb1543eb5fe1a58a3daa19bec9e41b
+SHA256 (.footprint) = e6fa3c419d36d4df171ef106d3cab2bd69a74ca8b5ab869fe65e7b7ced0a2071
+SHA256 (tdb-1.4.13.tar.gz) = 5ee276e7644d713e19e4b6adc00b440afb5851ff21e65821ffaed89e15a5e167
+SHA256 (tdb-man-pages.tar.xz) = 4ba01bfb0ea6d3572a00b1993783053d42170299cda5fa842629a231b957ae2f
