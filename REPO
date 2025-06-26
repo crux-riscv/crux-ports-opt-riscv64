@@ -80,7 +80,6 @@ f:b4c915f486e4014c21c6f6ae7251207e:tevent/.signature
 f:5727264e21b47fb49a18012861aa1c7a:libxklavier/Pkgfile
 f:4e24d436631fcc5b0d7c962eb73dc92a:libxklavier/.footprint
 f:606fec66437813978d89f0d443d40a2c:libxklavier/.signature
-f:1ebbd3e34237af26da5dc08a4e440464:LICENSE
 f:08babe5f17deae110d5fa163b55824bf:libcanberra/libcanberra-broadway-fix.patch
 f:e2cb0d98fb80affba4f7d317222f27f8:libcanberra/Pkgfile
 f:a7d538151a41689f42a2a6b589ef0a3e:libcanberra/libcanberra-multi-backend.patch
