@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYfVhAl8wpVJMfi/eRjNOnbKQ0YjLRamuAT0MejFPLyIt/XkREzvI0oAtjF1TyJG3hsmLSSCC6FVt21+2k5TTfwY=
+SHA256 (Pkgfile) = 304490b0700a684f02ef17f76661cf0e1a6371a51a1829f1bb6f28e0beb5066e
+SHA256 (.footprint) = 37c20dd6d3bc2db4a4619e7f0b01d8ea91767ba6a1a5a3e1085f47bf074efd03
+SHA256 (startup-notification-0.12.tar.gz) = 3c391f7e930c583095045cd2d10eb73a64f085c7fde9d260f2652c7cb3cfbe4a
