@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYQaMumUcP130u/hCgRvw1s7bBIKq0YkI7Q9OKKm1HSRpTPXkd6IN2M6BSy/n3oDlDRaPrvUaPKrgZh1M66/j4wE=
+SHA256 (Pkgfile) = 1f0e68fe4d5e009cbfa6bef4b189e380e8f02a6582ee534095ec2a85cef53489
+SHA256 (.footprint) = 8b18ba421cc94f233bb8976bc377e3662a4cdf7f00342940c84281aff6ce5c96
+SHA256 (libcanberra-0.30.tar.xz) = c2b671e67e0c288a69fc33dc1b6f1b534d07882c2aceed37004bf48c601afa72
+SHA256 (libcanberra-broadway-fix.patch) = 5c07bf6a7199d992e6f797de157bf4368391e597ab7a332da401269a8d8dd12b
+SHA256 (libcanberra-multi-backend.patch) = de146cae3e40a16b38c8edb4f1a3a423c64eb9c5000e36c316b677e9909c9b06
