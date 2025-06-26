@@ -1,0 +1,8 @@
+#
+# /etc/ports/opt-riscv64.httpup: CRUX-ARM RiscV64 ports overlay for CRUX opt collection
+#
+
+ROOT_DIR=/usr/ports/opt-riscv64
+URL=https://raw.githubusercontent.com/crux-riscv/crux-ports-opt-riscv64/3.8/
+
+# End of file
