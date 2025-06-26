@@ -22,3 +22,4 @@ prtdir /usr/ports/core
 prtdir /usr/ports/opt
 prtdir /usr/ports/xorg
 ```
+
