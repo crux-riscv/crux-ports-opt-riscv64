@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYeLnkyEHfUQtWAYJrIqzt4tSVJKCxHgntPIt+PCpZvYGee4qZG7uEV7jmdyhEZEBrj+18LbXgqlhXN3phRdF9AA=
+SHA256 (Pkgfile) = 0335d911c50ed2fecdcece611ffb578138fb27f657a233110dd2048f87bffabd
+SHA256 (.footprint) = af2fcda0aa66945974cbace716f7497519dbeeaa16ef8add5b7216b8b37f5bc2
+SHA256 (brotli-v1.1.0.tar.gz) = e720a6ca29428b803f4ad165371771f5398faba397edf6778837a18599ea13ff
