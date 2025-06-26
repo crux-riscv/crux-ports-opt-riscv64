@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYRFNr9tPvvvcRP1/zhDpoh9BWBnT+Zkkb7vQV3GsdFkP7RM3Dxm/8FkIoaiMaSpyWMmyayma7r5NTRk1qkLV0A4=
+SHA256 (Pkgfile) = 39795a47400c64a19caa5b7cd9ee15822b1eec17a676a36270d36741ba1549fd
+SHA256 (.footprint) = e42b50a51e47b5c3a6bbb4bf0266bae1f78beb0130036d0a18c56f6c46aaf981
+SHA256 (pyyaml-6.0.2.tar.gz) = d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e
