@@ -1,0 +1,31 @@
+# Description: A general purpose cryptographic library based on GnuPG
+# URL: https://www.gnupg.org
+# Maintainer: CRUX System Team, core-ports at crux dot nu
+# Depends on: libgpg-error
+
+name=libgcrypt
+version=1.11.1
+release=1
+source=(https://www.gnupg.org/ftp/gcrypt/libgcrypt/$name-$version.tar.bz2
+        $name-$version-add-missing-simd-common-riscv-h.patch)
+
+build() {
+  cd $name-$version
+
+  # https://bugs.gentoo.org/955813
+  # rijndael-vp-riscv.c:58:10: fatal error: simd-common-riscv.h: No such file or directory
+  # 58 | #include "simd-common-riscv.h"
+  #    |          ^~~~~~~~~~~~~~~~~~~~~
+  # compilation terminated.
+
+  patch -p1 -i $SRC/$name-$version-add-missing-simd-common-riscv-h.patch
+
+  ./configure \
+    --prefix=/usr \
+    --disable-padlock-support \
+    --enable-static=yes
+  make
+  make DESTDIR=$PKG install
+
+  rm -r $PKG/usr/share/info
+}

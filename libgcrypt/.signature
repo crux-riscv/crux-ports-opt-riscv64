@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYY1bF//bqZeob8Mtck7zicqlyYr/iZjA6YHrBL4zHl7c6g0X+VpZ1FYDVvkIF3Y4cmIj8ZoO/H724j6/jioNcQQ=
+SHA256 (Pkgfile) = dcd952838b3c0eb25e0b33fe082ce831351fac8f30d403b41b3afcef2f38861b
+SHA256 (.footprint) = 2e76c5fac1831ca38edd1fc35d475c94cda8d3ac02b6932a5d373eb4305bebd6
+SHA256 (libgcrypt-1.11.1.tar.bz2) = 24e91c9123a46c54e8371f3a3a2502f1198f2893fbfbf59af95bc1c21499b00e
+SHA256 (libgcrypt-1.11.1-add-missing-simd-common-riscv-h.patch) = 5247f93cdfa003825ebc05f6ca2ec24e3a2c29a0443fa4cc2a34adba018c8131
