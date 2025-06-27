@@ -24,6 +24,7 @@ d:libgnome-keyring
 d:compiler-rt
 d:go
 d:libgcrypt
+d:samba
 d:python3-cairo
 d:luajit_git
 f:8f892ed26f75dba8a07a88b43420ec71:ftjam/Pkgfile
@@ -122,6 +123,11 @@ f:cbadcc962a4f069d11f099c21ce77aba:libgcrypt/libgcrypt-1.11.1-add-missing-simd-c
 f:308065fa0801e5d78c07980f57e1629a:libgcrypt/Pkgfile
 f:f5fd5b2a79b5021b58216c9bd58a12d6:libgcrypt/.footprint
 f:31798fa2f00a4ed6544e8466d15b395b:libgcrypt/.signature
+f:52ac853ac121a740928a7d103c96a780:samba/samba.rc
+f:9d5c085bd72d376323a55fdcbc231646:samba/samba.pam
+f:753bd63189d765ea26f8e42463b06361:samba/Pkgfile
+f:20937b5ca18721c0331f94310d8dfe63:samba/.footprint
+f:a01fb665594172ff898bf864436367ac:samba/.signature
 f:c643b1454d010db69d75507af32fdcc5:python3-cairo/Pkgfile
 f:b66970aad9e92f2773e8576808903e9d:python3-cairo/.footprint
 f:3f3812c4d4b63f5dfe3bb3487f72bd9b:luajit_git/Pkgfile
