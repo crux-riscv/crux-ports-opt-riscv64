@@ -20,6 +20,7 @@ d:gobject-introspection
 d:python3-pyyaml
 d:libsdl
 d:libgnome-keyring
+d:compiler-rt
 d:go
 d:libgcrypt
 d:python3-cairo
@@ -106,6 +107,9 @@ f:dc4e818e7f6eee907e100f278b65289d:libsdl/.signature
 f:c00308131ebfba049e442526a29f1be3:libgnome-keyring/Pkgfile
 f:f517ec8f2ecc5ea09019c48c8ed3e9aa:libgnome-keyring/.footprint
 f:67097ea160f636dba74dff16253afb25:libgnome-keyring/.signature
+f:0cf83840c62e2eb250bd51fc5068a706:compiler-rt/Pkgfile
+f:8cba34437539ada618ddc5f58684d636:compiler-rt/.footprint
+f:489a864ba8eb144f622f63c2a46306ae:compiler-rt/.signature
 f:d1231c915f8c22665ac0158c0d13499a:go/Pkgfile
 f:a89245058732b01796d0ce1e2279fb00:go/.nostrip
 f:11a373a1ca09f6a807a964a3cb177622:go/.footprint
