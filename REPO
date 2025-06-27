@@ -8,6 +8,7 @@ d:rust
 d:hyphen
 d:python3-cython
 d:startup-notification
+d:ruby
 d:opendoas
 d:poppler
 d:check
@@ -64,6 +65,9 @@ f:b2b3c8bef1c099399c6a7271c523cd22:python3-cython/.signature
 f:68dd65b83dedcce35185cd1764c9855f:startup-notification/Pkgfile
 f:db757b2e5a75e3cb9a5e2bdde32e6d3b:startup-notification/.footprint
 f:b60973065911c21721fb1c88856f785f:startup-notification/.signature
+f:3e580fe7e40c22c8e79b921db8cade40:ruby/Pkgfile
+f:b3eb2656b9b24212deae87a28ca9b644:ruby/.footprint
+f:ebbccc58cc65152de61e1cfb892350cd:ruby/.signature
 f:1245efee909cc64b3e13f1aadbb3ea10:opendoas/Pkgfile
 f:b6351250ac8ed26a3e023c5ce841c665:opendoas/better-wayland-support.patch
 f:f3bb4ade8216b1b9f3b276c45c4a7154:opendoas/.footprint
