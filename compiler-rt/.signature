@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYT5zV+cWb3b/yXUd2p8I3/f87wy92TlqTWUzEmLLUZ1zZ3ECFBozmvvyMSOJvwPEl7DHom02rZaN95qSdnKShwQ=
+SHA256 (Pkgfile) = 42f434ded7b1b36c4c5f41162d461a90c503e54b2393c59e634bbceecb216e19
+SHA256 (.footprint) = a2f29a6aa544f8eafa1579db4a3611f810067bca5e7d769dc10dc7fbd22cdd35
+SHA256 (compiler-rt-20.1.6.src.tar.xz) = 34ff389ce2c34ac1fe8badcf842265295daa91fd1149d69a7ebaf131edf01e4d
+SHA256 (llvm-20.1.6.src.tar.xz) = f09e304ca98bb809f492ec34f94f587361b4b0d06ed783fb3a41e7fb218e47a1
+SHA256 (cmake-20.1.6.src.tar.xz) = b4b3efa5d5b01b3f211f1ba326bb6f0c318331f828202d332c95b7f30fca5f8c
