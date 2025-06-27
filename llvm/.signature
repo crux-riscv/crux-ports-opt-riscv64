@@ -1,0 +1,9 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYQrH0HVjqgmo/vrqS8EMH7ry+pLGzgsxR/PZ39Qob1JhZcbTtScYjiTD8QNgzhVcMrdMPON+j76aRdcWCwJ77Qs=
+SHA256 (Pkgfile) = 884093ff1e20cf7d4117ef4cacfe6adbfc91ea7336c244e9b5f317c88f589c6b
+SHA256 (.footprint) = f82989577599ee148056537dd4940b7d131e0619f0aed0bb2492cb7947e13d60
+SHA256 (llvm-19.1.7.src.tar.xz) = 96f833c6ad99a3e8e1d9aca5f439b8fd2c7efdcf83b664e0af1c0712c5315910
+SHA256 (cmake-19.1.7.src.tar.xz) = 11c5a28f90053b0c43d0dec3d0ad579347fc277199c005206b963c19aae514e3
+SHA256 (third-party-19.1.7.src.tar.xz) = b96deca1d3097c7ffd4ff2bb904a50bdd56bec7ed1413ffb0d1d01af87b72c12
+SHA256 (install-prefix.patch) = 2649b61a459eb6d8a9aca38ab411aec27eeae57fe82e32d135db4ccb353c9dda
+SHA256 (llvm-config.h) = fb556efe4d87b9063aa027f200fa405458147ba773eb4ffda3ea5e33c204c809
