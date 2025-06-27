@@ -1,6 +1,7 @@
 d:ftjam
 d:yasm
 d:python3-markupsafe
+d:llvm
 d:tdb
 d:talloc
 d:rust
@@ -33,6 +34,11 @@ f:eb3f29324c6cf5798a22903afa3c73a1:yasm/.signature
 f:b423ef874f3109bf71bc1c60bce23657:python3-markupsafe/Pkgfile
 f:7cf1dc8efb03cfd966480637df7f616e:python3-markupsafe/.footprint
 f:21b0392126418cd727fcf420be36b7a0:python3-markupsafe/.signature
+f:5d5743e9cc9a5cf66a46f3f3ac3ab855:llvm/Pkgfile
+f:f7968e9f39691a1d3638a602dad7dc1b:llvm/llvm-config.h
+f:852a6340c42f7279718107674e6d8412:llvm/.footprint
+f:259d04bb7126bbee4e8268135e4b6a14:llvm/.signature
+f:7fc6870fe0887ee43a2f0b720e4cdd4f:llvm/install-prefix.patch
 f:577eac319436d73e2fe6e20ae5731bdc:tdb/tdb-man-pages.tar.xz
 f:4540381f286a8d41553ede9e1fe8ae00:tdb/Pkgfile
 f:0177948e94b672357f85800fe79a353c:tdb/.footprint
