@@ -1,3 +1,4 @@
+d:nodejs
 d:ftjam
 d:yasm
 d:python3-markupsafe
@@ -27,6 +28,10 @@ d:libgcrypt
 d:samba
 d:python3-cairo
 d:luajit_git
+f:bdba1786d7facec19680ce9938d8d3c4:nodejs/Pkgfile
+f:bc51d17e8c75abeff6f08e21f8086b9f:nodejs/.footprint
+f:6f35bea030879f18394b1de2c469f449:nodejs/unbundle-uv.patch
+f:efac7f172fba1362c390ef2f7ed7a6d6:nodejs/.signature
 f:8f892ed26f75dba8a07a88b43420ec71:ftjam/Pkgfile
 f:befbdb005f6d72371ccd16df69e3021e:ftjam/.footprint
 f:99b9ade13b10a873fa763090e4d1496d:ftjam/.signature
