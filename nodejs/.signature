@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-riscv64.pub
+RWRnRXDi4PZhYXp6YlkKonvSZLbSrtsKUbsQFa+DucT4j/W0+2RvMvtUXf1yXs2kzukj4HQESWzXdAMITGUL/+AYfdiEgPrAogU=
+SHA256 (Pkgfile) = 2872ecd83b184b4067a006ba4daa22c7d1206b24bbc87b8ffc77f999f58075f3
+SHA256 (.footprint) = 3150c1e8bc4bec5c9d351873b44bba9bf9f6c91e9e29b8871ee27e3bf18b3a70
+SHA256 (node-v22.17.0.tar.xz) = 7a3ef2aedb905ea7926e5209157266e2376a5db619d9ac0cba3c967f6f5db4f9
+SHA256 (unbundle-uv.patch) = e279aedb1e12776df8b0976af884a88e59fa0654d3de4c178451d75241329fe9
