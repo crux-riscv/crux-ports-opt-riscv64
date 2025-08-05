@@ -119,9 +119,9 @@ f:b60973065911c21721fb1c88856f785f:startup-notification/.signature
 f:debbc6934a48b882f303f8009b8bcf77:python3-pyyaml/.footprint
 f:42e973d0adc58b723182afefe34ca859:python3-pyyaml/Pkgfile
 f:007d88b1e306f6acbbb83184102f4c99:python3-pyyaml/.signature
-f:b3eb2656b9b24212deae87a28ca9b644:ruby/.footprint
-f:3e580fe7e40c22c8e79b921db8cade40:ruby/Pkgfile
-f:ebbccc58cc65152de61e1cfb892350cd:ruby/.signature
+f:2960172e78f8e053b053452b4666d20a:ruby/.footprint
+f:30aab492add5dac75387eaa2b14babdc:ruby/Pkgfile
+f:7bab284da4b07712fc4e7160baedff22:ruby/.signature
 f:7a0284769648d0ee213dc12a8afd7d4e:python3-cython/.footprint
 f:f2b721b5603fcfd8605a6bbb9a461523:python3-cython/Pkgfile
 f:b2b3c8bef1c099399c6a7271c523cd22:python3-cython/.signature
