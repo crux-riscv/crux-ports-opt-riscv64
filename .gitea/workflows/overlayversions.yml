@@ -36,7 +36,7 @@ jobs:
           GITEA_OWNER: crux-riscv
           GITEA_REPO: opt-riscv64
         run: |
-          bash -x ${{ github.workspace }}/.gitea/scripts/overlay_versions.sh /usr/ports/core-riscv64 opt contrib
+          bash -x ${{ github.workspace }}/.gitea/scripts/overlay_versions.sh /usr/ports/opt-riscv64 opt contrib
 
       - name: Save ports to cache
         id: save-ports
