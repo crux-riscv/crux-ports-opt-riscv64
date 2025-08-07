@@ -15,13 +15,13 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: /usr/ports
-          key: ports-xorg-${{ github.ref_name }}
+          key: ports-opt-${{ github.ref_name }}
 
       - name: enable all repositories
         run: |
           cd /etc/ports
           for i in *.inactive; do mv $i ${i/.inactive/}; done
-          echo host=crux.nu > /etc/ports/core-riscv64.rsync
+          echo host=crux.nu > /etc/ports/opt-riscv64.rsync
           echo collection=crux-riscv/opt-riscv64/3.8/ >> /etc/ports/opt-riscv64.rsync
           echo destination=/usr/ports/opt-riscv64 >> /etc/ports/opt-riscv64.rsync
           ports -u
