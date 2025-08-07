@@ -22,7 +22,7 @@ jobs:
           cd /etc/ports
           for i in *.inactive; do mv $i ${i/.inactive/}; done
           echo host=crux.nu > /etc/ports/core-riscv64.rsync
-          echo collection=crux-riscv/op-riscv64/3.8/ >> /etc/ports/opt-riscv64.rsync
+          echo collection=crux-riscv/opt-riscv64/3.8/ >> /etc/ports/opt-riscv64.rsync
           echo destination=/usr/ports/opt-riscv64 >> /etc/ports/opt-riscv64.rsync
           ports -u
 
