@@ -15,7 +15,7 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: /usr/ports
-          key: ports-opt-${{ github.ref_name }}
+          key: ports-opt-riscv64-${{ github.ref_name }}
 
       - name: enable all repositories
         run: |
