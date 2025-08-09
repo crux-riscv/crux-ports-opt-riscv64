@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRnRXDi4PZhYcypvRP3rXb+nbK8TKX5Ot1MYB8NAC9ibAlPUPMgVL7dizIV/ybygZTpYH2lc7D12lopP8J63XAh91ZN6uKPAAc=
-SHA256 (Pkgfile) = 06e563f762ed37e00825a863e200db5928bb1543eb5fe1a58a3daa19bec9e41b
-SHA256 (.footprint) = e6fa3c419d36d4df171ef106d3cab2bd69a74ca8b5ab869fe65e7b7ced0a2071
-SHA256 (tdb-1.4.13.tar.gz) = 5ee276e7644d713e19e4b6adc00b440afb5851ff21e65821ffaed89e15a5e167
+RWRnRXDi4PZhYUHdpYfu+MhHPvaR4oPaZiyAIkjPXom8gVsezNiyL2kQvgA0u9dbmiU7jhvgHfgta/pK8ty2Xwk1zYL4jWjg8Qg=
+SHA256 (Pkgfile) = a5c28a7fcdb0f4cfa032fabc659ca65548e0849c06f95e20039dbb33940f9a04
+SHA256 (.footprint) = 85e77fb2bea0a4bbefcc79ac1453ebb944cfd78efad2987db2870643da4c321c
+SHA256 (tdb-1.4.14.tar.gz) = 144f407d42ed7a0ec1470a40ef17ad41133fe910bce865dd9fe084d49c907526
 SHA256 (tdb-man-pages.tar.xz) = 4ba01bfb0ea6d3572a00b1993783053d42170299cda5fa842629a231b957ae2f
