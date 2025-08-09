@@ -6,7 +6,7 @@
 # Optional: lld
 
 name=llvm
-version=19.1.7
+version=20.1.8
 release=1
 source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/llvm-$version.src.tar.xz
    https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/cmake-$version.src.tar.xz
@@ -24,9 +24,6 @@ build() {
    grep -rl '#!.*python' | xargs sed -i '1s/python$/python3/'
 
    patch -Np2 -d $name-$version.src -i $SRC/install-prefix.patch
-
-#  git clone https://github.com/riscv/riscv-lld $SRC/lld
-#  rm -r $SRC/lld/tools/
 
    LDFLAGS+=" -latomic" \
    cmake -S $name-$version.src -B build -G Ninja $PKGMK_LLVM \
