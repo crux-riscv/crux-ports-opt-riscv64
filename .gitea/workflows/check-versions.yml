@@ -1,0 +1,33 @@
+---
+name: Check versions
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 1 * * *"
+
+jobs:
+  check-and-inform:
+    runs-on: crux-3.8
+    permissions:
+      contents: read
+      issues: write
+    concurrency:
+      group: overlay-${{ github.repository }}-${{ github.ref_name }}
+      cancel-in-progress: true
+    steps:
+      - name: Check overlayed versions
+        id: check-versions
+        uses: https://git.crux.nu/actions/check-versions@v1.0
+        with:
+          gitea-url: https://git.crux.nu
+          gitea-token: ${{ secrets.CRUXBOT_TOKEN }}
+          repositories: "opt contrib"
+          ports-branch: "3.8"
+          debug: false
+
+      - name: Print counts
+        run: |
+          echo mismatches=${{ steps.check-versions.outputs.mismatches }}
+          echo created=${{ steps.check-versions.outputs.created }}
+          echo skipped=${{ steps.check-versions.outputs.skipped }}
