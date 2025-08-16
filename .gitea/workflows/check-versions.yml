@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: Check overlayed versions
         id: check-versions
-        uses: https://git.crux.nu/actions/check-versions@v1.0
+        uses: https://git.crux.nu/actions/check-versions@v1.1
         with:
           gitea-url: https://git.crux.nu
           gitea-token: ${{ secrets.CRUXBOT_TOKEN }}
