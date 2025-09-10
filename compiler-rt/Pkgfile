@@ -5,7 +5,7 @@
 # Optional: clang
 
 name=compiler-rt
-version=21.1.0
+version=21.1.1
 release=1
 source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/compiler-rt-$version.src.tar.xz
     https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/llvm-$version.src.tar.xz
@@ -14,14 +14,14 @@ source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/
 build() {
   mv llvm-$version.src llvm
   mv cmake-$version.src cmake
-  
+
   if prt-get isinst clang; then
     if ! /usr/bin/ldd /usr/bin/clang | grep -q -E '.*not found'; then
       export CC=clang
       export CXX=clang++
     fi
   fi
-  
+
   cmake -S $name-$version.src -B build -G Ninja \
     -D CMAKE_INSTALL_PREFIX=/usr \
     -D CMAKE_BUILD_TYPE=Release \
