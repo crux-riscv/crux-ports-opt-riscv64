@@ -5,7 +5,7 @@
 # Optional: cairo python3-mako python3-markdown
 
 name=gobject-introspection
-version=1.84.0
+version=1.86.0
 release=1
 source=(https://download.gnome.org/sources/$name/${version::4}/$name-$version.tar.xz)
 
