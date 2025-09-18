@@ -226,9 +226,9 @@ drwxr-xr-x	root/root	usr/include/ruby-3.4/ruby/io/
 -rw-r--r--	root/root	usr/include/ruby-3.4/ruby/version.h
 -rw-r--r--	root/root	usr/include/ruby-3.4/ruby/vm.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.3.4.5
-lrwxrwxrwx	root/root	usr/lib/libruby.so.3.4 -> libruby.so.3.4.5
--rwxr-xr-x	root/root	usr/lib/libruby.so.3.4.5
+lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.3.4.6
+lrwxrwxrwx	root/root	usr/lib/libruby.so.3.4 -> libruby.so.3.4.6
+-rwxr-xr-x	root/root	usr/lib/libruby.so.3.4.6
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/ruby-3.4.pc
 drwxr-xr-x	root/root	usr/lib/ruby/
@@ -894,8 +894,11 @@ drwxr-xr-x	root/root	usr/lib/ruby/3.4/prism/parse_result/
 -rw-r--r--	root/root	usr/lib/ruby/3.4/prism/parse_result/newlines.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/prism/pattern.rb
 drwxr-xr-x	root/root	usr/lib/ruby/3.4/prism/polyfill/
+-rw-r--r--	root/root	usr/lib/ruby/3.4/prism/polyfill/append_as_bytes.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/prism/polyfill/byteindex.rb
+-rw-r--r--	root/root	usr/lib/ruby/3.4/prism/polyfill/scan_byte.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/prism/polyfill/unpack1.rb
+-rw-r--r--	root/root	usr/lib/ruby/3.4/prism/polyfill/warn.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/prism/reflection.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/prism/relocation.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/prism/serialize.rb
@@ -904,10 +907,13 @@ drwxr-xr-x	root/root	usr/lib/ruby/3.4/prism/polyfill/
 drwxr-xr-x	root/root	usr/lib/ruby/3.4/prism/translation/
 -rw-r--r--	root/root	usr/lib/ruby/3.4/prism/translation/parser.rb
 drwxr-xr-x	root/root	usr/lib/ruby/3.4/prism/translation/parser/
+-rw-r--r--	root/root	usr/lib/ruby/3.4/prism/translation/parser/builder.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/prism/translation/parser/compiler.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/prism/translation/parser/lexer.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/prism/translation/parser33.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/prism/translation/parser34.rb
+-rw-r--r--	root/root	usr/lib/ruby/3.4/prism/translation/parser35.rb
+-rw-r--r--	root/root	usr/lib/ruby/3.4/prism/translation/parser_current.rb
 -rw-r--r--	root/root	usr/lib/ruby/3.4/prism/translation/ripper.rb
 drwxr-xr-x	root/root	usr/lib/ruby/3.4/prism/translation/ripper/
 -rw-r--r--	root/root	usr/lib/ruby/3.4/prism/translation/ripper/sexp.rb
@@ -2176,7 +2182,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/prime-0.1.3/sig/
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/gems/prime-0.1.3/sig/integer-extension.rbs
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/gems/prime-0.1.3/sig/manifest.yaml
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/gems/prime-0.1.3/sig/prime.rbs
-drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/prism-1.2.0/
+drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/prism-1.5.1/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/pstore-0.1.4/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/psych-5.2.2/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/racc-1.8.1/
@@ -3354,7 +3360,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/specifications/default/
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/pathname-0.4.0.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/pp-0.6.2.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/prettyprint-0.2.0.gemspec
--rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/prism-1.2.0.gemspec
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/prism-1.5.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/pstore-0.1.4.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/psych-5.2.2.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/rdoc-6.14.0.gemspec
