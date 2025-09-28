@@ -1,11 +1,12 @@
 # Description: Python bindings for YAML, using fast libYAML library
 # URL: https://pyyaml.org/wiki/PyYAML
 # Maintainer: Tim Biermann, tbier at posteo dot de
+# Arch Maintainer: CRUX-RISCV System Team, devel at crux-riscv dot nu
 # Depends on: libyaml python3-cython
 
 name=python3-pyyaml
-version=6.0.2
-release=2
+version=6.0.3
+release=1
 source=(https://pypi.org/packages/source/p/pyyaml/pyyaml-$version.tar.gz)
 
 build() {
