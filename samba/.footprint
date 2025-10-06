@@ -191,9 +191,9 @@ lrwxrwxrwx	root/root	usr/lib/libsamba-errors.so.1 -> libsamba-errors.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/libsamba-hostconfig.so -> libsamba-hostconfig.so.0.0.1
 lrwxrwxrwx	root/root	usr/lib/libsamba-hostconfig.so.0 -> libsamba-hostconfig.so.0.0.1
 -rwxr-xr-x	root/root	usr/lib/libsamba-hostconfig.so.0.0.1
-lrwxrwxrwx	root/root	usr/lib/libsamba-passdb.so -> libsamba-passdb.so.0.29.0
-lrwxrwxrwx	root/root	usr/lib/libsamba-passdb.so.0 -> libsamba-passdb.so.0.29.0
--rwxr-xr-x	root/root	usr/lib/libsamba-passdb.so.0.29.0
+lrwxrwxrwx	root/root	usr/lib/libsamba-passdb.so -> libsamba-passdb.so.0.30.0
+lrwxrwxrwx	root/root	usr/lib/libsamba-passdb.so.0 -> libsamba-passdb.so.0.30.0
+-rwxr-xr-x	root/root	usr/lib/libsamba-passdb.so.0.30.0
 lrwxrwxrwx	root/root	usr/lib/libsamba-policy.so -> libsamba-policy.so.0.0.1
 lrwxrwxrwx	root/root	usr/lib/libsamba-policy.so.0 -> libsamba-policy.so.0.0.1
 -rwxr-xr-x	root/root	usr/lib/libsamba-policy.so.0.0.1
@@ -203,9 +203,9 @@ lrwxrwxrwx	root/root	usr/lib/libsamba-util.so.0 -> libsamba-util.so.0.0.1
 lrwxrwxrwx	root/root	usr/lib/libsamdb.so -> libsamdb.so.0.0.1
 lrwxrwxrwx	root/root	usr/lib/libsamdb.so.0 -> libsamdb.so.0.0.1
 -rwxr-xr-x	root/root	usr/lib/libsamdb.so.0.0.1
-lrwxrwxrwx	root/root	usr/lib/libsmbclient.so -> libsmbclient.so.0.8.0
-lrwxrwxrwx	root/root	usr/lib/libsmbclient.so.0 -> libsmbclient.so.0.8.0
--rwxr-xr-x	root/root	usr/lib/libsmbclient.so.0.8.0
+lrwxrwxrwx	root/root	usr/lib/libsmbclient.so -> libsmbclient.so.0.8.1
+lrwxrwxrwx	root/root	usr/lib/libsmbclient.so.0 -> libsmbclient.so.0.8.1
+-rwxr-xr-x	root/root	usr/lib/libsmbclient.so.0.8.1
 lrwxrwxrwx	root/root	usr/lib/libsmbconf.so -> libsmbconf.so.0.0.1
 lrwxrwxrwx	root/root	usr/lib/libsmbconf.so.0 -> libsmbconf.so.0.0.1
 -rwxr-xr-x	root/root	usr/lib/libsmbconf.so.0.0.1
@@ -252,6 +252,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/atsvc.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/auth.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/base.cpython-312-riscv64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/bcrypt_rsakey_blob.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/claims.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/conditional_ace.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/dcerpc.cpython-312-riscv64-linux-gnu.so
@@ -268,6 +269,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/idmap.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/initshutdown.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/irpc.cpython-312-riscv64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/keycredlink.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/krb5ccache.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/krb5pac.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/lsa.cpython-312-riscv64-linux-gnu.so
@@ -289,6 +291,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/spoolss.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/srvsvc.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/svcctl.cpython-312-riscv64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/tpm20_rsakey_blob.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/unixinfo.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/winbind.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/windows_event_ids.cpython-312-riscv64-linux-gnu.so
@@ -553,6 +556,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/tests/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/auth_log_pass_change.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/auth_log_samlogon.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/auth_log_winbind.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/bcrypt_rsakey_blob.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/tests/blackbox/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/blackbox/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/blackbox/bug13653.py
@@ -593,6 +597,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/tests/dcerpc/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/dcerpc/array.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/dcerpc/bare.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/dcerpc/binding.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/dcerpc/dfs.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/dcerpc/dnsserver.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/dcerpc/integer.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/dcerpc/lsa.py
@@ -654,6 +659,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/tests/kcc/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/kcc/graph_utils.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/kcc/kcc_utils.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/kcc/ldif_import_export.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/key_credential_link.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/tests/krb5/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/krb5/alias_tests.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/krb5/as_canonicalization_tests.py
@@ -720,6 +726,9 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/tests/ndr/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/netbios.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/netcmd.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/netlogonsvc.py
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/tests/nss/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/nss/base.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/nss/group.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/ntacls.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/ntacls_backup.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/ntlm_auth.py
@@ -830,10 +839,16 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/tests/samba_tool/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/subunitrun.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/tdb_util.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/token_factory.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/tpm20_rsakey_blob.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/upgrade.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/upgradeprovision.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/upgradeprovisionneeddc.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/usage.py
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/tests/varlink/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/varlink/base.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/varlink/getgrouprecord.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/varlink/getmemberships.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/varlink/getuserrecord.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/xattr.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/upgrade.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/upgradehelpers.py
@@ -935,12 +950,15 @@ drwxr-xr-x	root/root	usr/lib/samba/ldb/
 -rwxr-xr-x	root/root	usr/lib/samba/libndr-samba4-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libnet-keytab-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libnetif-private-samba.so
+-rwxr-xr-x	root/root	usr/lib/samba/libngtcp2-crypto-gnutls-private-samba.so
+-rwxr-xr-x	root/root	usr/lib/samba/libngtcp2-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libnpa-tstream-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libnss-info-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libposix-eadb-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libprinter-driver-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libprinting-migrate-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libpyldb-util.cpython-312-riscv64-linux-gnu-private-samba.so
+-rwxr-xr-x	root/root	usr/lib/samba/libquic-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libregistry-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libreplace-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libroken-private-samba.so
@@ -951,6 +969,7 @@ drwxr-xr-x	root/root	usr/lib/samba/ldb/
 -rwxr-xr-x	root/root	usr/lib/samba/libsamba-net-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libsamba-python.cpython-312-riscv64-linux-gnu-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libsamba-security-private-samba.so
+-rwxr-xr-x	root/root	usr/lib/samba/libsamba-security-trusts-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libsamba-sockets-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libsamba3-util-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libsamdb-common-private-samba.so
@@ -958,7 +977,6 @@ drwxr-xr-x	root/root	usr/lib/samba/ldb/
 -rwxr-xr-x	root/root	usr/lib/samba/libserver-id-db-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libserver-role-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libshares-private-samba.so
--rwxr-xr-x	root/root	usr/lib/samba/libsmb-transport-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libsmbclient-raw-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libsmbd-base-private-samba.so
 -rwxr-xr-x	root/root	usr/lib/samba/libsmbd-shim-private-samba.so
@@ -1036,6 +1054,68 @@ drwxr-xr-x	root/root	usr/sbin/
 -rwxr-xr-x	root/root	usr/sbin/smbd
 -rwxr-xr-x	root/root	usr/sbin/winbindd
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/locale/
+drwxr-xr-x	root/root	usr/share/locale/ar/
+drwxr-xr-x	root/root	usr/share/locale/ar/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ar/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/cs/
+drwxr-xr-x	root/root	usr/share/locale/cs/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/cs/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/da/
+drwxr-xr-x	root/root	usr/share/locale/da/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/da/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/de/
+drwxr-xr-x	root/root	usr/share/locale/de/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/de/LC_MESSAGES/net.mo
+-rw-r--r--	root/root	usr/share/locale/de/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/es/
+drwxr-xr-x	root/root	usr/share/locale/es/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/es/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/fi/
+drwxr-xr-x	root/root	usr/share/locale/fi/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/fi/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/fr/
+drwxr-xr-x	root/root	usr/share/locale/fr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/fr/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/hu/
+drwxr-xr-x	root/root	usr/share/locale/hu/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/hu/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/it/
+drwxr-xr-x	root/root	usr/share/locale/it/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/it/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/ja/
+drwxr-xr-x	root/root	usr/share/locale/ja/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ja/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/ko/
+drwxr-xr-x	root/root	usr/share/locale/ko/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ko/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/nb/
+drwxr-xr-x	root/root	usr/share/locale/nb/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/nb/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/nl/
+drwxr-xr-x	root/root	usr/share/locale/nl/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/nl/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/pl/
+drwxr-xr-x	root/root	usr/share/locale/pl/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/pl/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/pt_BR/
+drwxr-xr-x	root/root	usr/share/locale/pt_BR/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/pt_BR/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/ru/
+drwxr-xr-x	root/root	usr/share/locale/ru/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ru/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/sv/
+drwxr-xr-x	root/root	usr/share/locale/sv/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/sv/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/tr/
+drwxr-xr-x	root/root	usr/share/locale/tr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/tr/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/zh_CN/
+drwxr-xr-x	root/root	usr/share/locale/zh_CN/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/zh_CN/LC_MESSAGES/pam_winbind.mo
+drwxr-xr-x	root/root	usr/share/locale/zh_TW/
+drwxr-xr-x	root/root	usr/share/locale/zh_TW/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/zh_TW/LC_MESSAGES/pam_winbind.mo
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/dbwrap_tool.1.gz
@@ -1094,6 +1174,7 @@ drwxr-xr-x	root/root	usr/share/man/man8/
 -rw-r--r--	root/root	usr/share/man/man8/samba-tool.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/samba.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/samba_downgrade_db.8.gz
+-rw-r--r--	root/root	usr/share/man/man8/smb_prometheus_endpoint.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/smbd.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/smbpasswd.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/smbspool.8.gz
