@@ -226,9 +226,9 @@ drwxr-xr-x	root/root	usr/include/ruby-3.4/ruby/io/
 -rw-r--r--	root/root	usr/include/ruby-3.4/ruby/version.h
 -rw-r--r--	root/root	usr/include/ruby-3.4/ruby/vm.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.3.4.6
-lrwxrwxrwx	root/root	usr/lib/libruby.so.3.4 -> libruby.so.3.4.6
--rwxr-xr-x	root/root	usr/lib/libruby.so.3.4.6
+lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.3.4.7
+lrwxrwxrwx	root/root	usr/lib/libruby.so.3.4 -> libruby.so.3.4.7
+-rwxr-xr-x	root/root	usr/lib/libruby.so.3.4.7
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/ruby-3.4.pc
 drwxr-xr-x	root/root	usr/lib/ruby/
@@ -3315,7 +3315,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/typeprof-0.30.1/lib/typeprof/lsp
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/gems/typeprof-0.30.1/lib/typeprof/lsp/util.rb
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/gems/typeprof-0.30.1/lib/typeprof/version.rb
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/un-0.3.0/
-drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/uri-1.0.3/
+drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/uri-1.0.4/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/weakref-0.1.3/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/yaml-0.4.0/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/gems/zlib-3.2.1/
@@ -3381,7 +3381,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/3.4/specifications/default/
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/tmpdir-0.3.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/tsort-0.2.0.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/un-0.3.0.gemspec
--rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/uri-1.0.3.gemspec
+-rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/uri-1.0.4.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/weakref-0.1.3.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/yaml-0.4.0.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/3.4/specifications/default/zlib-3.2.1.gemspec
