@@ -5,11 +5,10 @@
 # Optional: brotli c-ares icu libnghttp3 libngtcp2 simdjson simdutf
 
 name=nodejs
-version=24.10.0
+version=25.0.0
 release=1
 source=(https://nodejs.org/dist/v$version/node-v$version.tar.xz
   6bd4bdded4fe666dc90872fd4472b967b6e5cd55.patch
-  v8-disable-trap-handler-on-riscv-sv39.patch
   v8-riscv-trap-handler.patch
   unbundle-uv.patch)
 
@@ -18,7 +17,6 @@ build() {
 
   patch -Np1 -i $SRC/unbundle-uv.patch
   patch -Np1 -i $SRC/6bd4bdded4fe666dc90872fd4472b967b6e5cd55.patch
-  patch -Np1 -i $SRC/v8-disable-trap-handler-on-riscv-sv39.patch
   patch -Np1 -i $SRC/v8-riscv-trap-handler.patch
   rm deps/uv/uv.gyp deps/zlib/zlib.gyp
 
@@ -27,7 +25,7 @@ build() {
   prt-get isinst icu && PKGMK_NODEJS+=' --with-intl=system-icu'
   prt-get isinst libnghttp3 && PKGMK_NODEJS+=' --shared-nghttp3'
   prt-get isinst libngtcp2 && PKGMK_NODEJS+=' --shared-ngtcp2'
-  prt-get isinst simdjson && PKGMK_NODEJS+=' --shared-simdjson'
+  #prt-get isinst simdjson && PKGMK_NODEJS+=' --shared-simdjson'
   #prt-get isinst simdutf && PKGMK_NODEJS+=' --shared-simdutf'
 
   CFLAGS="$CFLAGS -g0 -Wl,--no-keep-memory -fuse-ld=gold -Wl,--no-map-whole-files -Wl,--no-keep-files-mapped" \
@@ -42,7 +40,7 @@ build() {
     --shared-nghttp2 \
     --experimental-http-parser
 
-  make DESTCPU="riscv64"  ARCH="riscv64"  VARIATION=""
+  make DESTCPU="riscv64" ARCH="riscv64" VARIATION=""
   make DESTDIR=$PKG install
 
   rm -r $PKG/usr/share/doc
