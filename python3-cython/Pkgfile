@@ -1,10 +1,11 @@
 # Description: C extensions for Python
 # URL: https://cython.org/
+# Arch Maintainer: CRUX-RISCV System Team, devel at crux-riscv dot nu
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: python3-wheel
 
 name=python3-cython
-version=3.1.4
+version=3.1.6
 release=1
 source=(https://pypi.org/packages/source/c/cython/cython-$version.tar.gz)
 
