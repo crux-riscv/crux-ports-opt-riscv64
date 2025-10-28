@@ -10,27 +10,36 @@ drwxr-xr-x	root/root	usr/include/brotli/
 -rw-r--r--	root/root	usr/include/brotli/types.h
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libbrotlicommon.so -> libbrotlicommon.so.1
-lrwxrwxrwx	root/root	usr/lib/libbrotlicommon.so.1 -> libbrotlicommon.so.1.1.0
--rwxr-xr-x	root/root	usr/lib/libbrotlicommon.so.1.1.0
+lrwxrwxrwx	root/root	usr/lib/libbrotlicommon.so.1 -> libbrotlicommon.so.1.2.0
+-rwxr-xr-x	root/root	usr/lib/libbrotlicommon.so.1.2.0
 lrwxrwxrwx	root/root	usr/lib/libbrotlidec.so -> libbrotlidec.so.1
-lrwxrwxrwx	root/root	usr/lib/libbrotlidec.so.1 -> libbrotlidec.so.1.1.0
--rwxr-xr-x	root/root	usr/lib/libbrotlidec.so.1.1.0
+lrwxrwxrwx	root/root	usr/lib/libbrotlidec.so.1 -> libbrotlidec.so.1.2.0
+-rwxr-xr-x	root/root	usr/lib/libbrotlidec.so.1.2.0
 lrwxrwxrwx	root/root	usr/lib/libbrotlienc.so -> libbrotlienc.so.1
-lrwxrwxrwx	root/root	usr/lib/libbrotlienc.so.1 -> libbrotlienc.so.1.1.0
--rwxr-xr-x	root/root	usr/lib/libbrotlienc.so.1.1.0
+lrwxrwxrwx	root/root	usr/lib/libbrotlienc.so.1 -> libbrotlienc.so.1.2.0
+-rwxr-xr-x	root/root	usr/lib/libbrotlienc.so.1.2.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libbrotlicommon.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libbrotlidec.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libbrotlienc.pc
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/Brotli-1.1.0-py3.12.egg-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/Brotli-1.1.0-py3.12.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/Brotli-1.1.0-py3.12.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/Brotli-1.1.0-py3.12.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/Brotli-1.1.0-py3.12.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/Brotli-1.2.0-py3.12.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/Brotli-1.2.0-py3.12.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/Brotli-1.2.0-py3.12.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/Brotli-1.2.0-py3.12.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/Brotli-1.2.0-py3.12.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/__pycache__/brotli.cpython-312.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/__pycache__/brotli.cpython-312.pyc
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/_brotli.cpython-312-riscv64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/brotli.py
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/brotli.1.gz
+drwxr-xr-x	root/root	usr/share/man/man3/
+-rw-r--r--	root/root	usr/share/man/man3/constants.h.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/decode.h.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/encode.h.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/types.h.3.gz

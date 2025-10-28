@@ -1,10 +1,11 @@
 # Description: Brotli compression library
 # URL: https://github.com/google/brotli
 # Maintainer: Tim Biermann, tbier at posteo dot de
+# Arch Maintainer: CRUX-RISCV System Team, devel at crux-riscv dot nu
 # Depends on:
 
 name=brotli
-version=1.1.0
+version=1.2.0
 release=1
 source=(https://github.com/google/$name/archive/v$version/$name-v$version.tar.gz)
 
