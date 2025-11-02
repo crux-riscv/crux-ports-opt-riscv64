@@ -1,8 +1,19 @@
-diff -Naur rustc-1.87.0-src.orig/src/bootstrap/src/core/build_steps/dist.rs rustc-1.87.0-src/src/bootstrap/src/core/build_steps/dist.rs
---- rustc-1.87.0-src.orig/src/bootstrap/src/core/build_steps/dist.rs	2025-05-15 20:36:30.310280383 +0200
-+++ rustc-1.87.0-src/src/bootstrap/src/core/build_steps/dist.rs	2025-05-15 20:39:42.549446415 +0200
-@@ -432,7 +432,7 @@
-                 },
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: "Jan Alexander Steffens (heftig)" <heftig@archlinux.org>
+Date: Thu, 6 May 2021 20:14:58 +0200
+Subject: [PATCH] bootstrap: Change libexec dir
+
+---
+ src/bootstrap/src/core/build_steps/dist.rs | 2 +-
+ src/bootstrap/src/core/build_steps/tool.rs | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/bootstrap/src/core/build_steps/dist.rs b/src/bootstrap/src/core/build_steps/dist.rs
+index 2453d442b6d0..ddd8f36aac57 100644
+--- a/src/bootstrap/src/core/build_steps/dist.rs
++++ b/src/bootstrap/src/core/build_steps/dist.rs
+@@ -490,7 +490,7 @@ fn prepare_image(builder: &Builder<'_>, target_compiler: Compiler, image: &Path)
+                 tool::RustAnalyzerProcMacroSrv::from_compilers(compilers),
                  builder.kind,
              ) {
 -                let dst = image.join("libexec");
@@ -10,15 +21,16 @@ diff -Naur rustc-1.87.0-src.orig/src/bootstrap/src/core/build_steps/dist.rs rust
                  builder.install(&ra_proc_macro_srv.tool_path, &dst, FileType::Executable);
              }
  
-diff -Naur rustc-1.87.0-src.orig/src/bootstrap/src/core/build_steps/tool.rs rustc-1.87.0-src/src/bootstrap/src/core/build_steps/tool.rs
---- rustc-1.87.0-src.orig/src/bootstrap/src/core/build_steps/tool.rs	2025-05-15 20:36:30.309921123 +0200
-+++ rustc-1.87.0-src/src/bootstrap/src/core/build_steps/tool.rs	2025-05-15 20:40:02.939431874 +0200
-@@ -954,7 +954,7 @@
+diff --git a/src/bootstrap/src/core/build_steps/tool.rs b/src/bootstrap/src/core/build_steps/tool.rs
+index dcc4898cae16..a40c7b68451e 100644
+--- a/src/bootstrap/src/core/build_steps/tool.rs
++++ b/src/bootstrap/src/core/build_steps/tool.rs
+@@ -1124,7 +1124,7 @@ fn run(self, builder: &Builder<'_>) -> Self::Output {
  
          // Copy `rust-analyzer-proc-macro-srv` to `<sysroot>/libexec/`
          // so that r-a can use it.
--        let libexec_path = builder.sysroot(self.compiler).join("libexec");
-+        let libexec_path = builder.sysroot(self.compiler).join("lib");
+-        let libexec_path = builder.sysroot(self.compilers.target_compiler).join("libexec");
++        let libexec_path = builder.sysroot(self.compilers.target_compiler).join("lib");
          t!(fs::create_dir_all(&libexec_path));
          builder.copy_link(
              &tool_result.tool_path,

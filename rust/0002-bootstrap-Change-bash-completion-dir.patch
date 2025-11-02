@@ -1,7 +1,17 @@
-diff -Naur rustc-1.87.0-src.orig/src/bootstrap/src/core/build_steps/dist.rs rustc-1.87.0-src/src/bootstrap/src/core/build_steps/dist.rs
---- rustc-1.87.0-src.orig/src/bootstrap/src/core/build_steps/dist.rs	2025-05-15 20:36:30.310280383 +0200
-+++ rustc-1.87.0-src/src/bootstrap/src/core/build_steps/dist.rs	2025-05-15 20:44:35.687484211 +0200
-@@ -1189,7 +1189,7 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: "Jan Alexander Steffens (heftig)" <heftig@archlinux.org>
+Date: Thu, 13 Jul 2023 21:16:53 +0200
+Subject: [PATCH] bootstrap: Change bash-completion dir
+
+---
+ src/bootstrap/src/core/build_steps/dist.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/bootstrap/src/core/build_steps/dist.rs b/src/bootstrap/src/core/build_steps/dist.rs
+index ddd8f36aac57..be091ce5e09c 100644
+--- a/src/bootstrap/src/core/build_steps/dist.rs
++++ b/src/bootstrap/src/core/build_steps/dist.rs
+@@ -1343,7 +1343,7 @@ fn run(self, builder: &Builder<'_>) -> Option<GeneratedTarball> {
          tarball.add_file(etc.join("_cargo"), "share/zsh/site-functions", FileType::Regular);
          tarball.add_renamed_file(
              etc.join("cargo.bashcomp.sh"),

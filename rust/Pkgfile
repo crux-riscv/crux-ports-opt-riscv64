@@ -5,9 +5,9 @@
 # Optional: libgit2
 
 name=rust
-version=1.90.0
-_date=2025-08-07
-_rustc=1.89.0
+version=1.91.0
+_date=2025-09-18
+_rustc=1.90.0
 _cargo=$_rustc
 release=1
 
@@ -17,10 +17,10 @@ source=(https://static.rust-lang.org/dist/${name}c-$version-src.tar.xz
     https://static.rust-lang.org/dist/$_date/cargo-$_cargo-riscv64gc-unknown-linux-gnu.tar.xz
     0001-bootstrap-Change-libexec-dir.patch
     0002-bootstrap-Change-bash-completion-dir.patch
-    0003-compiler-Change-LLVM-targets.patch
-    0004-compiler-Use-wasm-ld-for-wasm-targets.patch
+    0003-bootstrap-Workaround-for-system-stage0.patch
+    0004-compiler-Change-LLVM-targets.patch
+    0005-compiler-Use-aarch64-linux-gnu-gcc-to-link-aarch64-t.patch
     0006-compiler-Swap-primary-and-secondary-lib-dirs.patch
-    0007-bootstrap-Workaround-for-system-stage0.patch
     riscv64-disable-f16-f128.patch
 )
 
@@ -69,15 +69,15 @@ build() {
 
     patch -p1 -i $SRC/0001-bootstrap-Change-libexec-dir.patch
     patch -p1 -i $SRC/0002-bootstrap-Change-bash-completion-dir.patch
-    patch -p1 -i $SRC/0003-compiler-Change-LLVM-targets.patch
-    patch -p1 -i $SRC/0004-compiler-Use-wasm-ld-for-wasm-targets.patch
+    patch -p1 -i $SRC/0003-bootstrap-Workaround-for-system-stage0.patch
+    patch -p1 -i $SRC/0004-compiler-Change-LLVM-targets.patch
+    patch -p1 -i $SRC/0005-compiler-Use-aarch64-linux-gnu-gcc-to-link-aarch64-t.patch
     patch -p1 -i $SRC/0006-compiler-Swap-primary-and-secondary-lib-dirs.patch
-    patch -p1 -i $SRC/0007-bootstrap-Workaround-for-system-stage0.patch
     patch -p1 -i $SRC/riscv64-disable-f16-f128.patch
 
 cat <<- EOF > $SRC/bootstrap.toml
 profile = "dist"
-change-id = 144675
+change-id = 146435
 
 [llvm]
 download-ci-llvm = false
@@ -124,9 +124,9 @@ vendor = true
 locked-deps = true
 python = "/usr/bin/python3"
 optimized-compiler-builtins = true
-#@CARGO@
-#@RUST@
-#@RUSTFMT@
+@CARGO@
+@RUST@
+@RUSTFMT@
 
 [dist]
 compression-formats = ["gz"]
@@ -201,5 +201,6 @@ EOF
     done < <(find "$PKG/usr/lib/rustlib"  -path '*/analysis/*.json' -print0)
 
     find $PKG/usr -name "*.old" -delete
+    rm $PKG/etc/target-spec-json-schema.json
     rm $PKG/usr/lib/rustlib/{install.log,manifest-*}
 }
