@@ -400,6 +400,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libcpp/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libcpp/cast.pxd
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libcpp/cmath.pxd
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libcpp/complex.pxd
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libcpp/condition_variable.pxd
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libcpp/deque.pxd
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libcpp/exception.pxd
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libcpp/execution.pxd
@@ -558,11 +559,11 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/Cython/Utility/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/CppSupport.cpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/CythonFunction.c
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/Dataclasses.c
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/Dataclasses.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/Embed.c
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/Exceptions.c
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/ExtensionTypes.c
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/FunctionArguments.c
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/FusedFunction.pyx
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/ImportExport.c
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/MemoryView.pxd
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/MemoryView.pyx
@@ -576,6 +577,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/Cython/Utility/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/Profile.c
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/StringTools.c
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/Synchronization.c
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/TString.c
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/TestCyUtilityLoader.pyx
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/TestCythonScope.pyx
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/TestUtilityLoader.c
@@ -584,8 +586,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/Cython/Utility/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/UFuncs_C.c
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/Cython/Utility/__pycache__/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/__pycache__/Dataclasses.cpython-312.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/__pycache__/Dataclasses.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/__pycache__/__init__.cpython-312.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/__pycache__/__init__.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Utility/arrayarray.h
@@ -614,12 +614,12 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/Cython/__pycache__/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/__pycache__/cython.cpython-312.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/__pycache__/cython.cpython-312.pyc
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/cython-3.1.6.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.1.6.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.1.6.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.1.6.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.1.6.dist-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.1.6.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/cython-3.2.0.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.2.0.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.2.0.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.2.0.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.2.0.dist-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.2.0.dist-info/top_level.txt
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pyximport/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pyximport/__init__.py
