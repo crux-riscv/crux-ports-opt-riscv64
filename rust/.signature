@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRnRXDi4PZhYTgYFpUAeBhAbGEjHJECmwSbZewS/oS+gKkxCEwrGaqsweOkwxc8zeCiPh1F+cb+uTCJ1M3WW3/IGg9JSspA8Ao=
-SHA256 (Pkgfile) = 6b0c55e6806b8494f0301a43c94e4e7baa2ab25e06b691f3eb612394b3dd1d9a
-SHA256 (.footprint) = 7423194461ee9df02663d34c0296ef652befdbfcbbb0e7b0d60d67b7208a5402
-SHA256 (rustc-1.91.0-src.tar.xz) = 9b94161dba3aa32192e0e75f7891912d98095ffb86087b07a05af35a0265a938
+RWRnRXDi4PZhYaY3YfSnpmPG5q7Q2Npa/tCFeIE6GHDEfH3TXkkZHl3WFu33oCnNhQZkz3pCMVfFEn+HF7ktJvLUzz4KdO5FsQ4=
+SHA256 (Pkgfile) = a067dd4b846022dcab513e470982d8617e63cb5bdbc256f00c0208a9d60a4257
+SHA256 (.footprint) = b0a98e7e625cc6af3d81fcaf5c36891768eb3e2aa23d7d7cdfd5436dec394064
+SHA256 (rustc-1.91.1-src.tar.xz) = 66401bb815e236cc6b2aacbbe23b61b286c1fe27a67902e7c0222cfe77b3dbab
 SHA256 (rust-std-1.90.0-riscv64gc-unknown-linux-gnu.tar.xz) = 675dc5556d9d879101d2401b693fcf79edac8f00a49249e2e0f19cecd172ce51
 SHA256 (rustc-1.90.0-riscv64gc-unknown-linux-gnu.tar.xz) = 11ae522969c6b18ad4b5a1ae229473de59406af7ab2e831acb43ee247a16b58d
 SHA256 (cargo-1.90.0-riscv64gc-unknown-linux-gnu.tar.xz) = 8a09de014f7cec749b338c6636d190a1b73fd377bab6a223eb715d3c76c49e79
