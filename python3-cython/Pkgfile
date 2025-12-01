@@ -5,7 +5,7 @@
 # Depends on: python3-wheel
 
 name=python3-cython
-version=3.2.1
+version=3.2.2
 release=1
 source=(https://pypi.org/packages/source/c/cython/cython-$version.tar.gz)
 
