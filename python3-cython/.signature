@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRnRXDi4PZhYfSTvfFHz/+rh033/GUmOUsPFdjzWcg1ocwmdSx4qtCHC2zwwiNzi6+yWwgCN3PEK+DP94y8ZXRNkKxnyX/OhgY=
-SHA256 (Pkgfile) = 30671c320631a8b1fee2c044be5fda7e488b8137b60b191e8b86cb7e83dc6c01
-SHA256 (.footprint) = 4a1465d1f14f4c0c9051cd05d1130e01f0e8b760936b703e39480bf19c98f0f2
-SHA256 (cython-3.2.2.tar.gz) = c3add3d483acc73129a61d105389344d792c17e7c1cee24863f16416bd071634
+RWRnRXDi4PZhYYwSLzTZw9iJf94du5pnqLtAgYO8eKkJ/gnKvaxJ62CUUgZpBfB7nNB0gADmB5ZKWZFnvLcUt1or6pJUIZs/Ng8=
+SHA256 (Pkgfile) = b231fbc8ca42941afcd3cbad0d38b7b2dd8b9ab2d8673666ea6a505387a7e2e8
+SHA256 (.footprint) = e29f2b51e5536788e06de22fff3f9f6091dfb1b58988df2c91cddbeccf3a7adb
+SHA256 (cython-3.2.3.tar.gz) = f13832412d633376ffc08d751cc18ed0d7d00a398a4065e2871db505258748a6
