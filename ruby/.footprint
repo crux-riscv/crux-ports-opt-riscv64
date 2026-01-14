@@ -229,9 +229,9 @@ drwxr-xr-x	root/root	usr/include/ruby-4.0/ruby/io/
 -rw-r--r--	root/root	usr/include/ruby-4.0/ruby/version.h
 -rw-r--r--	root/root	usr/include/ruby-4.0/ruby/vm.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.4.0.0
-lrwxrwxrwx	root/root	usr/lib/libruby.so.4.0 -> libruby.so.4.0.0
--rwxr-xr-x	root/root	usr/lib/libruby.so.4.0.0
+lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.4.0.1
+lrwxrwxrwx	root/root	usr/lib/libruby.so.4.0 -> libruby.so.4.0.1
+-rwxr-xr-x	root/root	usr/lib/libruby.so.4.0.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/ruby-4.0.pc
 drwxr-xr-x	root/root	usr/lib/ruby/
@@ -772,6 +772,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/4.0/prism/
 -rw-r--r--	root/root	usr/lib/ruby/4.0/prism/ffi.rb
 -rw-r--r--	root/root	usr/lib/ruby/4.0/prism/inspect_visitor.rb
 -rw-r--r--	root/root	usr/lib/ruby/4.0/prism/lex_compat.rb
+-rw-r--r--	root/root	usr/lib/ruby/4.0/prism/lex_ripper.rb
 -rw-r--r--	root/root	usr/lib/ruby/4.0/prism/mutation_compiler.rb
 -rw-r--r--	root/root	usr/lib/ruby/4.0/prism/node.rb
 -rw-r--r--	root/root	usr/lib/ruby/4.0/prism/node_ext.rb
@@ -799,14 +800,11 @@ drwxr-xr-x	root/root	usr/lib/ruby/4.0/prism/translation/parser/
 -rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/parser/builder.rb
 -rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/parser/compiler.rb
 -rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/parser/lexer.rb
--rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/parser33.rb
--rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/parser34.rb
--rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/parser35.rb
--rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/parser40.rb
--rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/parser41.rb
 -rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/parser_current.rb
+-rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/parser_versions.rb
 -rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/ripper.rb
 drwxr-xr-x	root/root	usr/lib/ruby/4.0/prism/translation/ripper/
+-rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/ripper/lexer.rb
 -rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/ripper/sexp.rb
 -rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/ripper/shim.rb
 -rw-r--r--	root/root	usr/lib/ruby/4.0/prism/translation/ruby_parser.rb
@@ -2045,7 +2043,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/prime-0.1.4/sig/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/prime-0.1.4/sig/integer-extension.rbs
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/prime-0.1.4/sig/manifest.yaml
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/prime-0.1.4/sig/prime.rbs
-drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/prism-1.7.0/
+drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/prism-1.8.0/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.0/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.0/BSDL
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.0/COPYING
@@ -3545,7 +3543,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/specifications/default/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/optparse-0.8.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/pp-0.6.3.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/prettyprint-0.2.0.gemspec
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/prism-1.7.0.gemspec
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/prism-1.8.0.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/psych-5.3.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/resolv-0.7.0.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/ruby2_keywords-0.0.5.gemspec
