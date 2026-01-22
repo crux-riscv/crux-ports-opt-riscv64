@@ -4,22 +4,22 @@
 # Depends on: python3
 
 name=talloc
-version=2.4.3
+version=2.4.4
 release=1
 source=(https://samba.org/ftp/$name/$name-$version.tar.gz
     $name-man-pages.tar.xz)
 
 build() {
-  cd $name-$version
-  
-  ./configure \
-    --prefix=/usr \
-    --bundled-libraries=NONE \
-    --enable-talloc-compat1
+    cd $name-$version
 
-  make -j1
-  make DESTDIR=$PKG install
-  
-  install -d $PKG/usr/share/man/man3
-  install -m 0644 $SRC/talloc.3 $PKG/usr/share/man/man3
+    ./configure \
+      --prefix=/usr \
+      --bundled-libraries=NONE \
+      --enable-talloc-compat1
+
+    make -j1
+    make DESTDIR=$PKG install
+
+    install -d $PKG/usr/share/man/man3
+    install -m 0644 $SRC/talloc.3 $PKG/usr/share/man/man3
 }
