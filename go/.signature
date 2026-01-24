@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRnRXDi4PZhYSJvf7I9KGVT+6x3TI3o9WBlLtvgQmqB/x4DdcwT2EkD/SdKw5bhHZWnmEmpkQqhtbteoXs42mo0Y4+GO5rDXQ4=
-SHA256 (Pkgfile) = c74ff2ad2755c8f688ce763b7febf83f4e17cfb871708fa4b6c1bbab06c843d6
-SHA256 (.footprint) = e92f0759912881e6276f3749bd865a16bc445d9f0b6a10bcac01cc4282dada76
-SHA256 (go1.25.5.src.tar.gz) = 22a5fd0a91efcd28a1b0537106b9959b2804b61f59c3758b51e8e5429c1a954f
-SHA256 (go1.25.5.linux-riscv64.tar.gz) = 05de84b319bc91b9cecbc6bf8eb5fcd814cf8a9d16c248d293dbd96f6cc0151b
+RWRnRXDi4PZhYSzVwVp3cYyWURh0E9TQak0sjo6Jc0l1NBBRijewGRd0YubXhfkprPwleUz+TXJu1c6DHC5MDPFYiz1r9l3ImwI=
+SHA256 (Pkgfile) = e2258286de3cdfce43843ddebb0f7f48663c1b75bbaa1cf673a2c177f9f1d754
+SHA256 (.footprint) = df4bd901adfc83c619654d4d76ba6e44106cf530bf222dcd09fa0f7c2a24d0bf
+SHA256 (go1.25.6.src.tar.gz) = 58cbf771e44d76de6f56d19e33b77d745a1e489340922875e46585b975c2b059
+SHA256 (go1.25.6.linux-riscv64.tar.gz) = 82a6b989afda1681ecb1f4fa96f1006484f42643eb5e76bed58f7f97316bf84b
