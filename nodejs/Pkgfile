@@ -1,11 +1,12 @@
 # Description: Evented I/O for V8 javascript.
 # URL: https://nodejs.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
+# Arch Maintainer: CRUX-RISCV System Team, devel at crux-riscv dot nu
 # Depends on: libnghttp2 libuv openssl zlib
 # Optional: brotli c-ares icu libnghttp3 libngtcp2 simdjson simdutf
 
 name=nodejs
-version=25.4.0
+version=25.5.0
 release=1
 source=(https://nodejs.org/dist/v$version/node-v$version.tar.xz
   6bd4bdded4fe666dc90872fd4472b967b6e5cd55.patch
