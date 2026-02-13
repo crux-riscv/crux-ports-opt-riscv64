@@ -3,11 +3,7 @@
 # Maintainer: Matt Housh, jaeger at crux dot ninja
 
 name=go
-<<<<<<< HEAD
-version=1.25.6
-=======
 version=1.25.7
->>>>>>> 757fb59 (go: update to 1.25.7)
 release=1
 source=(https://golang.org/dl/go${version}.src.tar.gz \
     https://golang.org/dl/go${version}.linux-riscv64.tar.gz)
