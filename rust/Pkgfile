@@ -5,7 +5,7 @@
 # Optional: libgit2
 
 name=rust
-version=1.93.0
+version=1.93.1
 _date=2025-12-11
 _rustc=1.92.0
 _cargo=$_rustc
@@ -180,7 +180,8 @@ EOF
     { [ ! -e /usr/include/libssh2.h ] ||
         export LIBSSH2_SYS_USE_PKG_CONFIG=1; }
     export RUST_BACKTRACE=full
-    DESTDIR=$PKG /usr/bin/python3 ./x.py --config="${SRC}"/bootstrap.toml install -j ${JOBS-1}
+    #DESTDIR=$PKG /usr/bin/python3 ./x.py --config="${SRC}"/bootstrap.toml install -j ${JOBS-1}
+    DESTDIR=$PKG /usr/bin/python3 ./x.py --config="${SRC}"/bootstrap.toml install -j 4
 
     prt-get isinst bash-completion || rm -r $PKG/usr/share/bash-completion
     prt-get isinst zsh || rm -r $PKG/usr/share/zsh
