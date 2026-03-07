@@ -6,28 +6,22 @@
 # Optional: lld
 
 name=llvm
-version=21.1.8
+version=22.1.0
 release=1
-source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/llvm-$version.src.tar.xz
-    https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/cmake-$version.src.tar.xz
-    https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/third-party-$version.src.tar.xz
+source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/llvm-project-$version.src.tar.xz
     install-prefix.patch)
 
 build() {
     prt-get isinst ccache && export PATH="$(echo ${PATH} | awk -v RS=: -v ORS=: '/ccache/ {next} {print}' | sed 's/:*$//')"
 
-    cp -r $SRC/cmake-$version.src/Modules/* $name-$version.src/cmake/modules/.
-    mv $SRC/cmake-$version.src/ $SRC/cmake
-    mv $SRC/third-party-$version.src/ $SRC/third-party
-
     grep -rl '#!.*python' | xargs sed -i '1s/python$/python3/'
 
-    patch -Np2 -d $name-$version.src -i $SRC/install-prefix.patch
+    patch -Np2 -d $name-project-$version.src/llvm -i $SRC/install-prefix.patch
 
     export CFLAGS="-O2 -fPIC"
     export CXXFLAGS=$CFLAGS
 
-    cmake -S $name-$version.src -B build -G Ninja $PKGMK_LLVM \
+    cmake -S $name-project-$version.src/llvm -B build -G Ninja $PKGMK_LLVM \
         -D CMAKE_INSTALL_PREFIX=/usr \
         -D CMAKE_BUILD_TYPE=Release \
         -D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
@@ -68,9 +62,9 @@ build() {
     ln -s ../LLVMgold.so $PKG/usr/lib/bfd-plugins/
     ln -s ../libLTO.so $PKG/usr/lib/bfd-plugins/
 
-    /usr/bin/python3 $name-$version.src/utils/lit/setup.py build
-    /usr/bin/python3 $name-$version.src/utils/lit/setup.py install --prefix=/usr --root=$PKG
-    /usr/bin/python3 -m compileall -d $name-$version.src/utils/lit $PKG
-    /usr/bin/python3 -O -m compileall -d $name-$version.src/utils/lit $PKG
-    /usr/bin/python3 -OO -m compileall -d $name-$version.src/utils/lit $PKG
+    /usr/bin/python3 $name-project-$version.src/llvm/utils/lit/setup.py build
+    /usr/bin/python3 $name-project-$version.src/llvm/utils/lit/setup.py install --prefix=/usr --root=$PKG
+    /usr/bin/python3 -m compileall -d $name-project-$version.src/llvm/utils/lit $PKG
+    /usr/bin/python3 -O -m compileall -d $name-project-$version.src/llvm/utils/lit $PKG
+    /usr/bin/python3 -OO -m compileall -d $name-project-$version.src/llvm/utils/lit $PKG
 }
