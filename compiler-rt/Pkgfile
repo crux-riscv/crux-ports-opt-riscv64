@@ -1,10 +1,11 @@
 # Description: Compiler runtime libraries for clang
 # URL: https://compiler-rt.llvm.org/
 # Maintainer: CRUX System Team, core-ports at crux dot nu
+# Arch Maintainer: CRUX-RISCV System Team, devel at crux-riscv dot nu
 # Depends on: clang
 
 name=compiler-rt
-version=22.1.0
+version=22.1.1
 release=1
 source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/llvm-project-$version.src.tar.xz)
 
