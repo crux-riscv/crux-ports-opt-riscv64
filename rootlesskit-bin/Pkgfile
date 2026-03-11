@@ -1,0 +1,14 @@
+# Description: Linux-native fakeroot using user namespaces
+# URL: https://github.com/rootless-containers/rootlesskit
+# Maintainer: Juergen Daubert, jue at crux dot nu
+
+name=rootlesskit-bin
+version=2.3.6
+release=1
+source=(https://github.com/rootless-containers/rootlesskit/releases/download/v$version/rootlesskit-riscv64.tar.gz)
+renames=(rootlesskit-$version-riscv64.tar.gz)
+
+build() {
+    install -d $PKG/usr/bin
+    install rootlesskit $PKG/usr/bin
+}

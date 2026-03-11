@@ -1,0 +1,15 @@
+README for rootlesskit
+
+Rootlesskit is a replacement for fakeroot which have the advantage 
+of using the kernel, so it catches statically linked commands.
+
+REQUIREMENTS
+
+1. Kernel must have CONFIG_USER_NS defined to use namespaces
+
+PRE/POST-INSTALL
+
+1. Configure /etc/subuid and /etc/subgid for each userid that wants 
+   to run as root. See https://access.redhat.com/articles/5946151
+   or https://rootlesscontaine.rs/getting-started for example.
+
