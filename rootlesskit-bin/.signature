@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRnRXDi4PZhYXCScHc403JzsmSbSv7fY7wvFXMuWBud8rfB3igNWSOK2ykmm3Jp34EaPeWCBC0v01TevMYdeFHsOn8BjpxVmQk=
-SHA256 (Pkgfile) = 9f46426953c1c92af67a4e459321271f59820ce91eea7696c2171892454b61da
+RWRnRXDi4PZhYSadLculaQdP1+lGiPcg8C/GdebUdK1PhsZRQpAFwkl8F/ECO2jPVf9phSKi2Pip+5cCbbF5B6nFbCf4docz2w4=
+SHA256 (Pkgfile) = c9c5efadccfec8817f819b05a1c2bb92cde021c023ea90e0d6b8f13d5ddd6c57
 SHA256 (.footprint) = 050c5808e5973ea33ae5100dbcda3566d323d3c0cc85b12c063d5acf84ac2d35
 SHA256 (rootlesskit-2.3.6-riscv64.tar.gz) = 05da5803d0f023ec51112bbdf8967a3e12ae19544f8c101a7f08f3bb9c6548fd
