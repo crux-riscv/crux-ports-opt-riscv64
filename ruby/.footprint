@@ -229,9 +229,9 @@ drwxr-xr-x	root/root	usr/include/ruby-4.0/ruby/io/
 -rw-r--r--	root/root	usr/include/ruby-4.0/ruby/version.h
 -rw-r--r--	root/root	usr/include/ruby-4.0/ruby/vm.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.4.0.1
-lrwxrwxrwx	root/root	usr/lib/libruby.so.4.0 -> libruby.so.4.0.1
--rwxr-xr-x	root/root	usr/lib/libruby.so.4.0.1
+lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.4.0.2
+lrwxrwxrwx	root/root	usr/lib/libruby.so.4.0 -> libruby.so.4.0.2
+-rwxr-xr-x	root/root	usr/lib/libruby.so.4.0.2
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/ruby-4.0.pc
 drwxr-xr-x	root/root	usr/lib/ruby/
@@ -1348,7 +1348,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/cache/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/cache/ostruct-0.6.3.gem
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/cache/power_assert-3.0.1.gem
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/cache/prime-0.1.4.gem
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/cache/pstore-0.2.0.gem
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/cache/pstore-0.2.1.gem
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/cache/racc-1.8.1.gem
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/cache/rake-13.3.1.gem
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/cache/rbs-3.10.0.gem
@@ -1454,10 +1454,10 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bigdecimal-4.0.1/sample/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/bigdecimal-4.0.1/sample/linear.rb
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/bigdecimal-4.0.1/sample/nlsolve.rb
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/bigdecimal-4.0.1/sample/pi.rb
-drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.3/
-drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.3/exe/
--rwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.3/exe/bundle
--rwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.3/exe/bundler
+drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.6/
+drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.6/exe/
+-rwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.6/exe/bundle
+-rwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.6/exe/bundler
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/csv-3.3.5/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/csv-3.3.5/LICENSE.txt
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/csv-3.3.5/NEWS.md
@@ -2043,18 +2043,18 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/prime-0.1.4/sig/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/prime-0.1.4/sig/integer-extension.rbs
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/prime-0.1.4/sig/manifest.yaml
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/prime-0.1.4/sig/prime.rbs
-drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/prism-1.8.0/
-drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.0/
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.0/BSDL
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.0/COPYING
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.0/Gemfile
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.0/README.md
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.0/Rakefile
-drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.0/bin/
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.0/bin/console
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.0/bin/setup
-drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.0/lib/
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.0/lib/pstore.rb
+drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/prism-1.8.1/
+drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.1/
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.1/BSDL
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.1/COPYING
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.1/Gemfile
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.1/README.md
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.1/Rakefile
+drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.1/bin/
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.1/bin/console
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.1/bin/setup
+drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.1/lib/
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.1/lib/pstore.rb
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/psych-5.3.1/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/racc-1.8.1/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/racc-1.8.1/BSDL
@@ -3322,9 +3322,9 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/shellwords-0.2.2/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/singleton-0.3.0/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/stringio-3.2.0/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/strscan-3.1.6/
-drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/syntax_suggest-2.0.2/
-drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/syntax_suggest-2.0.2/exe/
--rwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/syntax_suggest-2.0.2/exe/syntax_suggest
+drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/syntax_suggest-2.0.3/
+drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/syntax_suggest-2.0.3/exe/
+-rwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/syntax_suggest-2.0.3/exe/syntax_suggest
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/syslog-0.3.0/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/syslog-0.3.0/BSDL
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/syslog-0.3.0/COPYING
@@ -3506,7 +3506,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/un-0.3.0/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/uri-1.1.1/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/weakref-0.1.4/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/yaml-0.4.0/
-drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/zlib-3.2.2/
+drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/zlib-3.2.3/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/plugins/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/plugins/rdoc_plugin.rb
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/specifications/
@@ -3517,7 +3517,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/specifications/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/csv-3.3.5.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/debug-1.11.1.gemspec
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/specifications/default/
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/bundler-4.0.3.gemspec
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/bundler-4.0.6.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/date-3.5.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/delegate-0.6.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/did_you_mean-2.0.0.gemspec
@@ -3543,7 +3543,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/specifications/default/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/optparse-0.8.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/pp-0.6.3.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/prettyprint-0.2.0.gemspec
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/prism-1.8.0.gemspec
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/prism-1.8.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/psych-5.3.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/resolv-0.7.0.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/ruby2_keywords-0.0.5.gemspec
@@ -3552,7 +3552,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/specifications/default/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/singleton-0.3.0.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/stringio-3.2.0.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/strscan-3.1.6.gemspec
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/syntax_suggest-2.0.2.gemspec
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/syntax_suggest-2.0.3.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/tempfile-0.3.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/time-0.4.2.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/timeout-0.6.0.gemspec
@@ -3562,7 +3562,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/specifications/default/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/uri-1.1.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/weakref-0.1.4.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/yaml-0.4.0.gemspec
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/zlib-3.2.2.gemspec
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/zlib-3.2.3.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/drb-2.2.3.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/fiddle-1.1.8.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/getoptlong-0.2.1.gemspec
@@ -3580,7 +3580,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/specifications/default/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/ostruct-0.6.3.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/power_assert-3.0.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/prime-0.1.4.gemspec
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/pstore-0.2.0.gemspec
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/pstore-0.2.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/racc-1.8.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/rake-13.3.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/rbs-3.10.0.gemspec
