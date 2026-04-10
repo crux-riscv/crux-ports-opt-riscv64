@@ -4,7 +4,7 @@
 # Arch Maintainer: CRUX-RISCV System Team, devel at crux-riscv dot nu
 
 name=go
-version=1.26.1
+version=1.26.2
 release=1
 source=(https://golang.org/dl/go${version}.src.tar.gz \
     https://golang.org/dl/go${version}.linux-riscv64.tar.gz)
