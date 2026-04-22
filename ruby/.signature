@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRnRXDi4PZhYT5UySF9b2czh6Xys+oD8VlZskUM7Zocqfpidwl3QYHC74/HXmiNaXy8KLbO4FEdb8eYfsAbL8tncudSkDA/sgo=
-SHA256 (Pkgfile) = b930057f45cb5c8863b96a8864f5595fc70709025d9e4a9aef2bc209923c3dd1
-SHA256 (.footprint) = a532df131dbd5f7dd0ced61feec03c8ac8933c8f1ee70d6585d603b7df44c389
-SHA256 (ruby-4.0.2.tar.xz) = 4618db85bb9ec04d8152d0099db488694a3d3c4f52106625e4ad547f1318db87
+RWRnRXDi4PZhYQ157o7C6Pf2dHkmY1keMhFZv+MI5UzCvUgcMyVBThS7y/OTv+rgLW9eMoGmOpyjVZyxhWOQlRsjEKl19DjyTA8=
+SHA256 (Pkgfile) = 56bfd0e344e837b297beb46a7bed05e3fe4f53fd4caf6ff3e7becf7e90563f12
+SHA256 (.footprint) = e1c7e9349545694c85cc1a3f7d122c39d2443201d0ec6d008475de77d8c09563
+SHA256 (ruby-4.0.3.tar.xz) = 22cf6005d25bbe496b5ebe9224d63a1aaabfbfe02591bb5d612517c5a7836f29
