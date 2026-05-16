@@ -229,9 +229,9 @@ drwxr-xr-x	root/root	usr/include/ruby-4.0/ruby/io/
 -rw-r--r--	root/root	usr/include/ruby-4.0/ruby/version.h
 -rw-r--r--	root/root	usr/include/ruby-4.0/ruby/vm.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.4.0.3
-lrwxrwxrwx	root/root	usr/lib/libruby.so.4.0 -> libruby.so.4.0.3
--rwxr-xr-x	root/root	usr/lib/libruby.so.4.0.3
+lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.4.0.4
+lrwxrwxrwx	root/root	usr/lib/libruby.so.4.0 -> libruby.so.4.0.4
+-rwxr-xr-x	root/root	usr/lib/libruby.so.4.0.4
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/ruby-4.0.pc
 drwxr-xr-x	root/root	usr/lib/ruby/
@@ -465,6 +465,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/exe/
 drwxr-xr-x	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/ext/
 drwxr-xr-x	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/ext/newgem/
 -rw-r--r--	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/ext/newgem/Cargo.toml.tt
+-rw-r--r--	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/ext/newgem/build.rs.tt
 -rw-r--r--	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/ext/newgem/extconf-c.rb.tt
 -rw-r--r--	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/ext/newgem/extconf-go.rb.tt
 -rw-r--r--	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/ext/newgem/extconf-rust.rb.tt
@@ -477,6 +478,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/ext/newgem/src/
 -rw-r--r--	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/ext/newgem/src/lib.rs.tt
 drwxr-xr-x	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/github/
 drwxr-xr-x	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/github/workflows/
+-rw-r--r--	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/github/workflows/build-gems.yml.tt
 -rw-r--r--	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/github/workflows/main.yml.tt
 -rw-r--r--	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/gitignore.tt
 -rw-r--r--	root/root	usr/lib/ruby/4.0/bundler/templates/newgem/gitlab-ci.yml.tt
@@ -1454,10 +1456,10 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bigdecimal-4.0.1/sample/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/bigdecimal-4.0.1/sample/linear.rb
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/bigdecimal-4.0.1/sample/nlsolve.rb
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/bigdecimal-4.0.1/sample/pi.rb
-drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.6/
-drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.6/exe/
--rwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.6/exe/bundle
--rwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.6/exe/bundler
+drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.10/
+drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.10/exe/
+-rwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.10/exe/bundle
+-rwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/bundler-4.0.10/exe/bundler
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/csv-3.3.5/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/csv-3.3.5/LICENSE.txt
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/csv-3.3.5/NEWS.md
@@ -3517,7 +3519,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/specifications/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/csv-3.3.5.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/debug-1.11.1.gemspec
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/specifications/default/
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/bundler-4.0.6.gemspec
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/bundler-4.0.10.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/date-3.5.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/delegate-0.6.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/did_you_mean-2.0.0.gemspec
