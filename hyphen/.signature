@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRnRXDi4PZhYYAx76FTkFB6lvxUqEK3mHqbx4B3I4v8V1gRqbahn/ju6kwcz31pv//xnh0CZQWbIiqx2S5kiCBjOdjIGRlCrAg=
-SHA256 (Pkgfile) = 507c4b15fde5bf837bbe7e35cbb495c372515d1be6a96295cc9c8140894a74ae
-SHA256 (.footprint) = 5a52ee3557898887cb294e2e1527a581331e802cce9ad0cc3e247dd2795747d6
-SHA256 (hyphen-2.8.8.tar.gz) = 304636d4eccd81a14b6914d07b84c79ebb815288c76fe027b9ebff6ff24d5705
+RWRnRXDi4PZhYZ5tJYnkdGhAjLl0Cp1RAVXvdKK9NJ7FxAORb22EbZQL2kiEAq/m6o7yuknk/WR7Zi+p2Cw1muOzIoo2LDnoXAI=
+SHA256 (Pkgfile) = d8d93e698131e11502dcc9815c5e42c866baf9b9313ba5bd67e506b1a07cb058
+SHA256 (.footprint) = 38f4c7b639ea1334c5f455a0acca335f07322be81fcebda277ee52c86a1cb8e4
+SHA256 (hyphen-2.8.9.tar.gz) = d6fc75d8500094903b119a45667fed91fe665e5f6f106029a4d3b4e26f3d8d6f

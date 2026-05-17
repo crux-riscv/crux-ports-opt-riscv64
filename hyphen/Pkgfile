@@ -3,13 +3,14 @@
 # Maintainer: Tim Biermann, tbier at posteo dot de
 
 name=hyphen
-version=2.8.8
+version=2.8.9
 release=1
-source=(https://downloads.sourceforge.net/hunspell/$name-$version.tar.gz)
+source=(https://github.com/hunspell/hyphen/archive/v$version/$name-$version.tar.gz)
 
 build() {
   cd $name-$version
 
+  autoreconf -fvi
   ./configure --prefix=/usr \
               --build=riscv64-unknown-linux-gnu
 

@@ -6,9 +6,9 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libhyphen.a
 -rwxr-xr-x	root/root	usr/lib/libhyphen.la
-lrwxrwxrwx	root/root	usr/lib/libhyphen.so -> libhyphen.so.0.3.0
-lrwxrwxrwx	root/root	usr/lib/libhyphen.so.0 -> libhyphen.so.0.3.0
--rwxr-xr-x	root/root	usr/lib/libhyphen.so.0.3.0
+lrwxrwxrwx	root/root	usr/lib/libhyphen.so -> libhyphen.so.0.4.0
+lrwxrwxrwx	root/root	usr/lib/libhyphen.so.0 -> libhyphen.so.0.4.0
+-rwxr-xr-x	root/root	usr/lib/libhyphen.so.0.4.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/hyphen/
 lrwxrwxrwx	root/root	usr/share/hyphen/hyph_en_AG.dic -> hyph_en_US.dic
