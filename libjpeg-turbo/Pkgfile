@@ -1,0 +1,25 @@
+# Description: Library of JPEG support functions.
+# URL: https://www.libjpeg-turbo.org/
+# Maintainer: CRUX System Team, core-ports at crux dot nu
+# Arch Maintainer: CRUX-RISCV System Team, devel at crux-riscv dot nu
+# Depends on: nasm
+
+name=libjpeg-turbo
+version=3.1.4.1
+release=1
+source=(https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/$version/$name-$version.tar.gz)
+
+build() {
+    cmake -S $name-$version -B build -G Ninja \
+        -D CMAKE_BUILD_TYPE=Release \
+        -D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
+        -D CMAKE_INSTALL_PREFIX=/usr \
+        -D CMAKE_INSTALL_LIBDIR=/usr/lib \
+        -D CMAKE_SKIP_INSTALL_RPATH=ON \
+        -D WITH_SIMD=OFF \
+        -D WITH_JPEG8=ON
+    cmake --build build -j ${JOBS:-1}
+    DESTDIR=$PKG cmake --install build
+
+    rm -r $PKG/usr/share/doc
+}
