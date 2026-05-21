@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRnRXDi4PZhYYytugaMk4Ms1N8e/ofP2sTGgM4SVI4TGDp64PU6Uv3+99hTxKz7Db0Cwq+U/v5ppaVX0W1P88MgJW0gKYcGAQI=
-SHA256 (Pkgfile) = 28b3233f34b416b602758a188181cbe2277455173fcf202b5c6c76c6555acf3c
-SHA256 (.footprint) = 1d1bffee55fccb9e253e7f2bc536383df252ce5706e823c74647b4e31d0bfc3b
-SHA256 (llvm-project-22.1.5.src.tar.xz) = 7972b87b705a003ce70ab55f9f0fb495d156887cba0eb296d284731139118e2c
+RWRnRXDi4PZhYRKtkhOuQBA6Z4468jCsK7JmrBvOd60ztHza1E1So2uJmeDIjOwjL+mvchVFjStOrVwf4vdMmFKpzSwrO6d4KQs=
+SHA256 (Pkgfile) = 404f30e2bde80568271cb9a36ce6f48f587107f415fca728ba6325a6ec00ae13
+SHA256 (.footprint) = eae8155bae2d30aca79608adddafafa0828edc1072bb96aef1445b9066364e79
+SHA256 (llvm-project-22.1.6.src.tar.xz) = 6e0b376a1f6d9873e7dfb09ae6e04b9c7024400f01733fa4c29be69d5c138bc2
 SHA256 (install-prefix.patch) = 2649b61a459eb6d8a9aca38ab411aec27eeae57fe82e32d135db4ccb353c9dda
