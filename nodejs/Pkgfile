@@ -6,7 +6,7 @@
 # Optional: brotli c-ares icu libnghttp3 libngtcp2 simdjson simdutf
 
 name=nodejs
-version=25.9.0
+version=26.2.0
 release=1
 source=(https://nodejs.org/dist/v$version/node-v$version.tar.xz
   6bd4bdded4fe666dc90872fd4472b967b6e5cd55.patch
@@ -17,8 +17,6 @@ build() {
   cd node-v$version
 
   patch -Np1 -i $SRC/unbundle-uv.patch
-  patch -Np1 -i $SRC/6bd4bdded4fe666dc90872fd4472b967b6e5cd55.patch
-  patch -Np1 -i $SRC/v8-riscv-trap-handler.patch
   rm deps/uv/uv.gyp deps/zlib/zlib.gyp
 
   prt-get isinst brotli && PKGMK_NODEJS+=' --shared-brotli'
@@ -29,7 +27,7 @@ build() {
   prt-get isinst simdjson && PKGMK_NODEJS+=' --shared-simdjson'
   prt-get isinst simdutf && PKGMK_NODEJS+=' --shared-simdutf'
 
-  CFLAGS="$CFLAGS -g0 -Wl,--no-keep-memory -fuse-ld=gold -Wl,--no-map-whole-files -Wl,--no-keep-files-mapped" \
+  CFLAGS="$CFLAGS -g0 -Wl,--no-keep-memory -fuse-ld=gold -Wl,--no-map-whole-files -Wl,--no-keep-files-mapped -DHWY_BROKEN_EMU128=0" \
   CXXFLAGS="$CFLAGS" \
   ./configure ${PKGMK_NODEJS} \
     --prefix=/usr \
