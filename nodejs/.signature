@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRnRXDi4PZhYeBkxH6T/eHYzGF6NlYsrmfpx0tSzLTuzABdweg1GG6iy6aG/mVGNHwaaFcoqpG4O747rpqLGOxl1/k/mVC+8Q0=
-SHA256 (Pkgfile) = 292d267f6ed7ecacc37ad9c53717bae9625366e8191449c7fc06011081e057f1
+RWRnRXDi4PZhYdOnGHm2mZpzT8RVpXHVpaDHIsZiXLRhp5bkMlV6gICD5M+IlCpMNQQ6jz9s5NUdh7w2vhzBE5XW/kgdb3E0CAo=
+SHA256 (Pkgfile) = 416f76190b4b48f8f1ff8f01b3aea2724ac3d4a423094531ba1fd2dddf4d89bd
 SHA256 (.footprint) = 38092bfccda371207b6ccf393bfc5157de94bdebcf1014aacb40e3869015ec0a
-SHA256 (node-v26.2.0.tar.xz) = ea82be7db418f54b3ef153a02d44d4f6748466f4765ae80bc484f34af40df610
+SHA256 (node-v26.3.0.tar.xz) = 319ad5d7d20cc622e55eb75b9f1a2546b77a08bd462b67030d0c89316c2c2349
 SHA256 (6bd4bdded4fe666dc90872fd4472b967b6e5cd55.patch) = 33bbd35debf0da8a93cb6aac24dd74a685e7d17daf13dfee4f01bd0015c173a9
 SHA256 (v8-riscv-trap-handler.patch) = 599801ac33b3814514fcf3a3a2e1d3d99d1c54cf23378e44954047555ecec551
 SHA256 (unbundle-uv.patch) = e279aedb1e12776df8b0976af884a88e59fa0654d3de4c178451d75241329fe9
