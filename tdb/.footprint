@@ -12,10 +12,10 @@ lrwxrwxrwx	root/root	usr/lib/libtdb.so.1 -> libtdb.so.1.4.15
 -rwxr-xr-x	root/root	usr/lib/libtdb.so.1.4.15
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/tdb.pc
-drwxr-xr-x	root/root	usr/lib/python3.12/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/_tdb_text.py
--rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/tdb.cpython-312-riscv64-linux-gnu.so
+drwxr-xr-x	root/root	usr/lib/python3.15/
+drwxr-xr-x	root/root	usr/lib/python3.15/site-packages/
+-rw-r--r--	root/root	usr/lib/python3.15/site-packages/_tdb_text.py
+-rwxr-xr-x	root/root	usr/lib/python3.15/site-packages/tdb.cpython-315-riscv64-linux-gnu.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man8/
