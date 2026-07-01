@@ -6,7 +6,7 @@
 # Optional: brotli cups libidn2
 
 name=samba
-version=4.24.3
+version=4.24.4
 release=1
 source=(https://www.samba.org/samba/ftp/stable/$name-$version.tar.gz \
     samba.rc samba.pam)
