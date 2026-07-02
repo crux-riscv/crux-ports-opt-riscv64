@@ -5,7 +5,7 @@
 # Optional: libgit2
 
 name=rust
-version=1.96.0
+version=1.96.1
 _date=2026-04-16
 _rustc=1.95.0
 _cargo=$_rustc
