@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRnRXDi4PZhYaG8vbDWbqH+6mxYH8vADsybkOfLX1mk5cYEUa5dgOXBBngaHJdmBXBDswz5uHkbt0CxO1YbKZVXkXobbBBH0QE=
-SHA256 (Pkgfile) = 70273a60de1729d874faaf506414fc48a92e933bab0be23ce7762925f759ee15
+RWRnRXDi4PZhYVU4ajitDkImdaCaKy0y7+Z6zgV0HwFJkgz4gSzVPilIjUZZLvJbu7vZ/3/6S5D0yWARV/wOHPigMR+2LX1BDA0=
+SHA256 (Pkgfile) = ef990fe77d6d0868f37202eecbea546eba44afbc5b01f9165d1fb941bee7ec60
 SHA256 (.footprint) = 5804e5e5d1c5cc2eedfdeb0b3c220b7756accf47781d5b13d6e3ed2d55b74316
-SHA256 (samba-4.24.4.tar.gz) = df2c51ab4361ec626ab9988e5946efcca8465bc7afae834291d5558468265ff8
+SHA256 (samba-4.24.5.tar.gz) = 6d5d7ee82f5ce9da4135086c9b184e47a58b4b023565f58abbb1f8c8a922306b
 SHA256 (samba.rc) = 0ab5a29dd85d5107cea902c21dd8426d20c3bcb2ce28a5add10d572bb88adc63
 SHA256 (samba.pam) = c872a9efb2f7151e51e10fada4a75d69f5f5bd5afb1db29b64e8288c7cdc8b20
