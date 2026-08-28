@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRnRXDi4PZhYW+RgoSU0ckynIIUs4wB4VSd3bg0kCPaKue43s1idBi/Z8LBpk+tZSYWwYnvsdrklgIj2kcxl5zjfomA0quI1wg=
-SHA256 (Pkgfile) = 947c2344a395367bf62de2b229b960a668375af755753456b0fd4ce42486b440
-SHA256 (.footprint) = 9ef279ffc6d87f843b33ab0a3aed46d55587e8ea297cdda35f687bfdfcaa3b30
-SHA256 (llvm-project-22.1.8.src.tar.xz) = 922f1817a0df7b1489272d18134ee0087a8b068828f87ac63b9861b1a9965888
+RWRnRXDi4PZhYZxsWz39q9+jJADGWSkVmDH3ip160FqqZbDpYCFRh7BDkFe92s3sSdnQUwL/xN4RlIGyNRRbr2NpAn+twsUOJgg=
+SHA256 (Pkgfile) = b1ded59a54594aff99b7e1a790745c9d0ecfa0112ca8c9221d4e916b513d5f2a
+SHA256 (.footprint) = b50233c7fb4cce0ee346d042c7d39483503a94dced15add40f5ac03aea1d4570
+SHA256 (llvm-project-23.1.0.src.tar.xz) = ab1f0e3ec52448c33e8782eaf0422504b87c7b016b22514653ee0d8fcee479ff
