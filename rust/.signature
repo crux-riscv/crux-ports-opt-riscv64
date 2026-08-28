@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRnRXDi4PZhYS9Y6PJfs9IX3qaHaFrI9oPfhKE+UfpiZz/POLGUdqCRfYl/LFYClxS3v93rx+lp+nF2TlN9heJJvZWuItGZkgE=
-SHA256 (Pkgfile) = 32adc18ed4047d812177845d32f2a2f677c6003eacdad0d33ce2f850a18ddaa2
-SHA256 (.footprint) = a312948781266fbed5b556b67aad360de5644c93de2f9455b73660475205ed97
+RWRnRXDi4PZhYZjoBzhbCPbbG+afaRRpg6EeCQ4ppK9ETUHXqC1Vu/aGf3anD9KW8SSAvPKwwUS4EKjiFxhJ1NtYlPvKjrl1zwk=
+SHA256 (Pkgfile) = fcdd66e59590e9b1739eba9705c2686002418c31fb11ea582e9c8ce5e988d508
+SHA256 (.footprint) = 55fedc469ae804665e04088e8938bfc239d73165d8de34876399562ba4c67fa2
 SHA256 (rustc-1.98.0-src.tar.xz) = 271fa73d8174f53d713c46a8310da7bf7cfdcfb8b7cfd1c2b74b84a83ae9fb1e
 SHA256 (rust-std-1.97.1-riscv64gc-unknown-linux-gnu.tar.xz) = 5cec88477a70fe83c10a12efd6bdad1b0f8dd4c1ebba1e427f00c69666c5b6f9
 SHA256 (rustc-1.97.1-riscv64gc-unknown-linux-gnu.tar.xz) = 3cb19f130eb83b56277c526f737ce02dedf6d38145f5220ff66af5b47c499dcb
@@ -12,4 +12,4 @@ SHA256 (0003-bootstrap-Workaround-for-system-stage0.patch) = 210da95ea32ba3b499b
 SHA256 (0004-compiler-Change-LLVM-targets.patch) = 8222b322c82fc201a25b899929276ec3b5c9d74ccd36bf77bba4a6247761033c
 SHA256 (0005-compiler-Use-aarch64-linux-gnu-gcc-to-link-aarch64-t.patch) = 1878325be3bdf38a3879f800dfab0b57aae94c1a04c4df5b3653dfa183b60654
 SHA256 (0006-compiler-Swap-primary-and-secondary-lib-dirs.patch) = 27e67c60fb1c7f2128dcc8d6a5898a9a81dddb0401cf04cfd639b6b2b96cf0a0
-SHA256 (riscv64-disable-f16-f128.patch) = 3c24714f756208648b4eb60c1910fff492a26d7b9719d9abc485d8616fd04d4e
+SHA256 (llvm23.patch) = 6b32037d71df721fe605319a3ff317db70a71eeb25648b8a07180befa8799e9c
