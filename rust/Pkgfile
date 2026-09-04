@@ -5,11 +5,11 @@
 # Optional: libgit2
 
 name=rust
-version=1.98.0
+version=1.98.1
 _date=2026-07-16
 _rustc=1.97.1
 _cargo=$_rustc
-release=2
+release=1
 
 source=(https://static.rust-lang.org/dist/${name}c-$version-src.tar.xz
     https://static.rust-lang.org/dist/$_date/rust-std-$_rustc-riscv64gc-unknown-linux-gnu.tar.xz
@@ -22,6 +22,7 @@ source=(https://static.rust-lang.org/dist/${name}c-$version-src.tar.xz
     0005-compiler-Use-aarch64-linux-gnu-gcc-to-link-aarch64-t.patch
     0006-compiler-Swap-primary-and-secondary-lib-dirs.patch
     llvm23.patch
+    llvm23_2.patch
 )
 
 unpack_source() {
@@ -74,6 +75,7 @@ build() {
     patch -p1 -i $SRC/0005-compiler-Use-aarch64-linux-gnu-gcc-to-link-aarch64-t.patch
     patch -p1 -i $SRC/0006-compiler-Swap-primary-and-secondary-lib-dirs.patch
     patch -p1 -i $SRC/llvm23.patch
+    patch -p1 -i $SRC/llvm23_2.patch
 
 cat <<- EOF > $SRC/bootstrap.toml
 profile = "dist"
