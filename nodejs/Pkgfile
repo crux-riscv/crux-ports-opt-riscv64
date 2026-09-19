@@ -6,7 +6,7 @@
 # Optional: brotli c-ares icu libnghttp3 libngtcp2 simdjson simdutf
 
 name=nodejs
-version=26.8.2
+version=26.9.0
 release=1
 source=(https://nodejs.org/dist/v$version/node-v$version.tar.xz
   6bd4bdded4fe666dc90872fd4472b967b6e5cd55.patch
@@ -36,8 +36,7 @@ build() {
     --shared-libuv \
     --shared-zlib \
     --shared-openssl \
-    --shared-nghttp2 \
-    --experimental-http-parser
+    --shared-nghttp2
 
   make DESTCPU="riscv64" ARCH="riscv64" VARIATION=""
   make DESTDIR=$PKG install
