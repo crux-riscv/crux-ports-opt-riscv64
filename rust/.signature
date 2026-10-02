@@ -1,16 +1,14 @@
 untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRnRXDi4PZhYaMcy5iJ9IBh0AH4j9V1pHVc20sYMsQ6jPzd9BY1jvUyU5gHKDxf+DfT9sIgvQ1bITsCK8lcBBS4tAu62iYGzQ0=
-SHA256 (Pkgfile) = a138e5e4f36baf9740a89c8da6dc40a48363b65abb62a6aa71878efb4ea1f218
-SHA256 (.footprint) = a80ff6779b2031dce5daac5e38546839aa00bd1a128f54a975377bc8c35c2f1b
-SHA256 (rustc-1.98.1-src.tar.xz) = be1816e7f6c40abb90245ad6e024bed2a7e88d7dda4561e4d5470207df616b9f
-SHA256 (rust-std-1.97.1-riscv64gc-unknown-linux-gnu.tar.xz) = 5cec88477a70fe83c10a12efd6bdad1b0f8dd4c1ebba1e427f00c69666c5b6f9
-SHA256 (rustc-1.97.1-riscv64gc-unknown-linux-gnu.tar.xz) = 3cb19f130eb83b56277c526f737ce02dedf6d38145f5220ff66af5b47c499dcb
-SHA256 (cargo-1.97.1-riscv64gc-unknown-linux-gnu.tar.xz) = df0d9edd65f4f7710a1a49a764a3da84e7a95467ded15dade41bbdf74051743b
+RWRnRXDi4PZhYSkD0+N2WDJSm0bponXAgJq5Y7kOf2drpsnG6uSICqp1MVDG5WvW5tMPOJ98TJhM4vCHYSRyNfRcuGS0U8240w4=
+SHA256 (Pkgfile) = 747b13482f60fed9652b1f67f12160a9a0fe0d5ed477232a2f239d818b0ed02f
+SHA256 (.footprint) = 8bdfcf7fd81c241401db9d88f2b66cfc38620837f757af10db8c78496ef6bb0b
+SHA256 (rustc-1.99.0-src.tar.xz) = cc41916a8c84f5d9ec4f55561b44e39f43b647b133f8a6f51be9ea13c83f7036
+SHA256 (rust-std-1.98.0-riscv64gc-unknown-linux-gnu.tar.xz) = 68ce716d38bcc15c6fe3686bc7133f5adbadd28f5f5a8a73ef1172b4f60149fc
+SHA256 (rustc-1.98.0-riscv64gc-unknown-linux-gnu.tar.xz) = 2f76a343190d8ffbe6c44666fdab32b6a6696a3e1176f6d84222b6e6221a382c
+SHA256 (cargo-1.98.0-riscv64gc-unknown-linux-gnu.tar.xz) = 9fcbf7ebb55a3eefdc2145a29b1cc797380edee0cee1163742c5ee06c4622347
 SHA256 (0001-bootstrap-Change-libexec-dir.patch) = d805895fb3cb7df941575f2773a80fccb31e0f87d471cde8a0b5097180261508
 SHA256 (0002-bootstrap-Change-bash-completion-dir.patch) = ffb7cda480b4d48fc82e5c3683afbf692214d086e640e154b0363014b9173fb3
 SHA256 (0003-bootstrap-Workaround-for-system-stage0.patch) = 210da95ea32ba3b499b5c9eef30bf00708af9d764d6173c1204cc42c65df78e7
 SHA256 (0004-compiler-Change-LLVM-targets.patch) = 8222b322c82fc201a25b899929276ec3b5c9d74ccd36bf77bba4a6247761033c
 SHA256 (0005-compiler-Use-aarch64-linux-gnu-gcc-to-link-aarch64-t.patch) = 1878325be3bdf38a3879f800dfab0b57aae94c1a04c4df5b3653dfa183b60654
 SHA256 (0006-compiler-Swap-primary-and-secondary-lib-dirs.patch) = 27e67c60fb1c7f2128dcc8d6a5898a9a81dddb0401cf04cfd639b6b2b96cf0a0
-SHA256 (llvm23.patch) = 6b32037d71df721fe605319a3ff317db70a71eeb25648b8a07180befa8799e9c
-SHA256 (llvm23_2.patch) = d1eaae32639ff3b23c767733a6cb7a9208a7b0f85f673f46665b8d7892abfb31
