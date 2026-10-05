@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-riscv64.pub
-RWRnRXDi4PZhYcj5nb4xiXp8hZDviUZ0T1qRxWaO2FbCf2xx6NAyCnHWQ3iuwBXHTl0N2Q861kn2AnEtdiBd3RmcPj0zh+s7dg4=
-SHA256 (Pkgfile) = 11a3c9f33d94c6050145af69344b1340812a93456711edd92edb372c2d29a499
-SHA256 (.footprint) = 4900a61766f03670f04a509c1116b274fc06dce1df0f040be19ea55530ef8a37
-SHA256 (markupsafe-3.0.3.tar.gz) = 722695808f4b6457b320fdc131280796bdceb04ab50fe1795cd540799ebe1698
+RWRnRXDi4PZhYYqlh4JGOX2pH9T9V1oGL0FTeFqLwSMq4DEBsTLb+Vuw5Z6lCDJsHsfE+26aTsqXx8GWUj/0ARrVeDbinVX7ZgA=
+SHA256 (Pkgfile) = 7ffd9ff81e09ec2025b0597f633afc2e41bd1fe9d600e8e3233028d58bad0ded
+SHA256 (.footprint) = 53bab4ac294e36944f09477f273b59a4aeea11f0e73779ccce13d5fa515bfb4f
+SHA256 (markupsafe-3.0.4.tar.gz) = 2e9ad7dd851bf45fab9f75cbff4cb493fee9979e8d8c7c9c3ee119022518edd6
