@@ -229,9 +229,9 @@ drwxr-xr-x	root/root	usr/include/ruby-4.0/ruby/io/
 -rw-r--r--	root/root	usr/include/ruby-4.0/ruby/version.h
 -rw-r--r--	root/root	usr/include/ruby-4.0/ruby/vm.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.4.0.7
-lrwxrwxrwx	root/root	usr/lib/libruby.so.4.0 -> libruby.so.4.0.7
--rwxr-xr-x	root/root	usr/lib/libruby.so.4.0.7
+lrwxrwxrwx	root/root	usr/lib/libruby.so -> libruby.so.4.0.9
+lrwxrwxrwx	root/root	usr/lib/libruby.so.4.0 -> libruby.so.4.0.9
+-rwxr-xr-x	root/root	usr/lib/libruby.so.4.0.9
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/ruby-4.0.pc
 drwxr-xr-x	root/root	usr/lib/ruby/
@@ -2043,7 +2043,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/prime-0.1.4/sig/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/prime-0.1.4/sig/integer-extension.rbs
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/prime-0.1.4/sig/manifest.yaml
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/prime-0.1.4/sig/prime.rbs
-drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/prism-1.8.1/
+drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/prism-1.8.2/
 drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.1/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.1/BSDL
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/gems/pstore-0.2.1/COPYING
@@ -3543,7 +3543,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/gems/4.0/specifications/default/
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/optparse-0.8.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/pp-0.6.3.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/prettyprint-0.2.0.gemspec
--rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/prism-1.8.1.gemspec
+-rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/prism-1.8.2.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/psych-5.3.1.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/resolv-0.7.2.gemspec
 -rw-r--r--	root/root	usr/lib/ruby/gems/4.0/specifications/default/ruby2_keywords-0.0.5.gemspec
