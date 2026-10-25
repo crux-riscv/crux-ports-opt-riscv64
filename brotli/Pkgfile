@@ -5,7 +5,7 @@
 # Depends on:
 
 name=brotli
-version=1.2.0
+version=1.2.1
 release=1
 source=(https://github.com/google/$name/archive/v$version/$name-v$version.tar.gz)
 
