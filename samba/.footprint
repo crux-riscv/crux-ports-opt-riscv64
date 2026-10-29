@@ -266,10 +266,12 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/drsuapi.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/echo.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/epmapper.cpython-312-riscv64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/file_id.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/gkdi.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/gmsa.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/idmap.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/initshutdown.cpython-312-riscv64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/ioctl.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/irpc.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/keycredlink.cpython-312-riscv64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/dcerpc/krb5ccache.cpython-312-riscv64-linux-gnu.so
@@ -738,9 +740,11 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/tests/ndr/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/netbios.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/netcmd.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/netlogonsvc.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/nps_echo_test.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/samba/tests/nss/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/nss/base.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/nss/group.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/ntacl_resource_attr_ace.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/ntacls.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/ntacls_backup.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/samba/tests/ntlm_auth.py
@@ -1144,6 +1148,7 @@ drwxr-xr-x	root/root	usr/share/man/man8/
 -rw-r--r--	root/root	usr/share/man/man8/vfs_catia.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/vfs_ceph.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/vfs_ceph_new.8.gz
+-rw-r--r--	root/root	usr/share/man/man8/vfs_ceph_rgw.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/vfs_ceph_snapshots.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/vfs_commit.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/vfs_crossrename.8.gz
