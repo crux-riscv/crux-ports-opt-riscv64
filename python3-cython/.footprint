@@ -383,6 +383,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libc/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libc/math.pxd
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libc/setjmp.pxd
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libc/signal.pxd
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libc/stdbool.pxd
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libc/stddef.pxd
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libc/stdint.pxd
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/Cython/Includes/libc/stdio.pxd
@@ -619,12 +620,12 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/Cython/__pycache__/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/__pycache__/cython.cpython-312.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/__pycache__/cython.cpython-312.pyc
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/cython-3.3.0.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.3.0.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.3.0.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.3.0.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.3.0.dist-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.3.0.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/cython-3.3.1.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.3.1.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.3.1.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.3.1.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.3.1.dist-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython-3.3.1.dist-info/top_level.txt
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/cython.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pyximport/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pyximport/__init__.py
