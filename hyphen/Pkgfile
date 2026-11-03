@@ -3,7 +3,7 @@
 # Maintainer: Tim Biermann, tbier at posteo dot de
 
 name=hyphen
-version=2.8.9
+version=2.8.10
 release=1
 source=(https://github.com/hunspell/hyphen/archive/v$version/$name-$version.tar.gz)
 
