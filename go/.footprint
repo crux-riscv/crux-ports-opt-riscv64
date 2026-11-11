@@ -1817,6 +1817,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/cmd/compile/internal/types2/
 -rw-r--r--	root/root	usr/lib/go/src/cmd/compile/internal/types2/lookup_test.go
 -rw-r--r--	root/root	usr/lib/go/src/cmd/compile/internal/types2/main_test.go
 -rw-r--r--	root/root	usr/lib/go/src/cmd/compile/internal/types2/map.go
+-rw-r--r--	root/root	usr/lib/go/src/cmd/compile/internal/types2/methodorder_test.go
 -rw-r--r--	root/root	usr/lib/go/src/cmd/compile/internal/types2/mono.go
 -rw-r--r--	root/root	usr/lib/go/src/cmd/compile/internal/types2/mono_test.go
 -rw-r--r--	root/root	usr/lib/go/src/cmd/compile/internal/types2/named.go
@@ -16327,6 +16328,7 @@ drwxr-xr-x	root/root	usr/lib/go/test/fixedbugs/issue8060.dir/
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue81612.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue81687.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue8183.go
+-rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue81863.go
 drwxr-xr-x	root/root	usr/lib/go/test/fixedbugs/issue8280.dir/
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue8280.dir/a.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue8280.dir/b.go
