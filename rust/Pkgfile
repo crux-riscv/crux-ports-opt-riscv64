@@ -5,9 +5,9 @@
 # Optional: libgit2
 
 name=rust
-version=1.99.1
-_date=2026-08-20
-_rustc=1.98.0
+version=1.100.0
+_date=2026-10-01
+_rustc=1.99.0
 _cargo=$_rustc
 release=1
 
@@ -75,7 +75,7 @@ build() {
 
 cat <<- EOF > $SRC/bootstrap.toml
 profile = "dist"
-change-id = 160100
+change-id = 162423
 
 [llvm]
 download-ci-llvm = false
@@ -94,7 +94,6 @@ remap-debuginfo = false
 codegen-tests = false
 backtrace-on-ice = true
 llvm-bitcode-linker = false
-jemalloc = true
 rpath = false
 frame-pointers = true
 deny-warnings = false
@@ -113,7 +112,8 @@ tools = ["cargo",
   "rust-demangler",
   "rust-analyzer",
   "rust-analyzer-proc-macro-srv",
-  "rustdoc"]
+  "rustdoc",
+  "rust-src"]
 docs = false
 extended = true
 sanitizers = true
@@ -122,6 +122,7 @@ vendor = true
 locked-deps = true
 python = "/usr/bin/python3"
 optimized-compiler-builtins = true
+allocator = "jemalloc"
 @CARGO@
 @RUST@
 @RUSTFMT@
